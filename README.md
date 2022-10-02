@@ -2,6 +2,15 @@
 A front-end website for travel agency.
 <br><br>
 
+<p align="center"> https://arun9739.github.io/Paryatana/ </p>
+<h1 align="center"> Paryatana </h1>
+
+<p align="center">
+Paryatana is the front-end website for travel agency. The website has all details regarding the tourist places, available hotels, and available car bookings. The tourist packages announced by the travel agency are also dispalyed in the website. The various attractive places of our country are also mentioned. The details of founder, manager are also put in the webpage. There are links to social media of Paryatana website. 
+</p>
+
+<br> <br>
+
 <p align="center">
 
 <img src="https://forthebadge.com/images/badges/built-by-developers.svg"/>
@@ -12,3 +21,10 @@ A front-end website for travel agency.
 <img src="https://forthebadge.com/images/badges/built-with-love.svg"/>
 
 <p>
+
+
+## The heart of this project are our contributors : 
+
+<a href="https://github.com/Arun9739/Paryatana/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Arun9739/Paryatana" />
+</a>
