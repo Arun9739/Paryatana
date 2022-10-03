@@ -53,7 +53,8 @@ body { overflow-x: hidden; }
 .tm-nav li a {
 	color: #838383;
 	display: block;
-	padding: 45px 34px 15px 34px;
+	/* margin:1em 0; */
+	padding: 30px 34px 30px 34px;
 	text-transform: uppercase;
 	transition: all 0.3s ease;
 }
@@ -104,6 +105,7 @@ body { overflow-x: hidden; }
 .tm-banner-link {
 	background: rgba(252, 221, 68, 0.39) none repeat scroll 0% 0%;
 	border: 1px solid #D2B731;
+	border-radius: 1em;
 	color: #FFF;
 	font-weight: 600;
 	display: inline-block;
@@ -186,6 +188,7 @@ body { overflow-x: hidden; }
 	height: 40px;
 	background-color: #F5D338;
 	border: medium none;
+	border-radius: 5px;
 	color: #5C4905;
 	font-size: 12px;
 	margin: 24px auto;
@@ -314,6 +317,10 @@ hr { border-top: 1px solid #111010; }
 	font-size: 14px;
 	padding: 30px 25px;
 	text-transform: uppercase;
+	text-align: center;
+}
+.tm-home-box-2 p{
+	text-align: center;
 }
 .tm-date {
 	color: #c3c3c3;
@@ -441,6 +448,7 @@ hr { border-top: 1px solid #111010; }
     padding: 20px;
     border-left: 1px solid #E4E4E4;
     border-right: 1px solid #E4E4E4;
+	text-align: center;
 }
 .tm-tours-box-2-link {
 	display: block;
@@ -610,7 +618,7 @@ hr { border-top: 1px solid #111010; }
 }
 .contact-image { 
 	float: left; 
-	widthh: 100%;
+	width: 100%;
 	max-width: 494px;
 }
 .contact-text {
