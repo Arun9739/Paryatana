@@ -25,7 +25,12 @@ a:focus {
 /* Header & Nav */
 body { overflow-x: hidden; }
 .tm-header {
-	background: #400361;
+
+	/* background: #400361; */
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+	border-radius: 5px;
+	background-color: rgba(64, 3, 97, .6);
+	backdrop-filter: blur(5px);
 	height: 80px;
 	position: fixed;
 	width: 100%;
@@ -51,10 +56,12 @@ body { overflow-x: hidden; }
 	list-style: none;
 	float: left;
 }
+
 .tm-nav li a {
-	color: #838383;
+	color: white;
+	font-weight:700;
 	display: block;
-	padding: 45px 34px 15px 34px;
+	padding: 30px 34px 30px 34px;
 	text-transform: uppercase;
 	transition: all 0.3s ease;
 }
