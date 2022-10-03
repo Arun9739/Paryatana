@@ -35,5 +35,5 @@ Paryatana is the front-end website for travel agency. The website has all detail
 ## The heart of this project are our contributors : 
 
 <a href="https://github.com/Arun9739/Paryatana/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Arun9739/Paryatana" />
+  <img src="https://contrib.rocks/image?repo=Arun9739/Paryatana"/>
 </a>
