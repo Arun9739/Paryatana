@@ -51,11 +51,14 @@ body { overflow-x: hidden; }
 	float: left;
 }
 .tm-nav li a {
-	color: #838383;
+	color: white;
 	display: block;
-	padding: 45px 34px 15px 34px;
+	/* padding: 45px 34px 15px 34px; */
 	text-transform: uppercase;
 	transition: all 0.3s ease;
+	padding: 10px 20px;
+	margin: 20px 5px;
+	border-radius: 10px;
 }
 .tm-nav li a.active,
 .tm-nav li a:focus,
