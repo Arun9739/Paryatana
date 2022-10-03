@@ -94,7 +94,7 @@
 			</div>
 			<div class="row">
 				<!-- contact form -->
-				<form action="#" method="post" class="tm-contact-form">
+				<form   class="tm-contact-form">
 					<div class="col-lg-6 col-md-6">
 						<div id="google-map"></div>
 						<div class="contact-social">
@@ -119,7 +119,7 @@
 							<textarea id="contact_message" class="form-control" rows="6" placeholder="MESSAGE"></textarea>
 						</div>
 						<div class="form-group">
-							<button class="tm-submit-btn" type="submit" name="submit">Submit now</button> 
+							<button class="tm-submit-btn" type="button" name="email-button" onclick=sendEmail() id="email-btn">SUBMIT NOW</button>
 						</div>               
 					</div>
 				</form>
@@ -135,6 +135,7 @@
 			</div>
 		</div>		
 	</footer>
+	<script type="text/javascript" src="js/email.js"></script>
 	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      		<!-- jQuery -->
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>					<!-- bootstrap js -->
 	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>			<!-- flexslider js -->
