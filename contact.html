@@ -12,15 +12,21 @@
 	<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">  
 	<link href="css/flexslider.css" rel="stylesheet">
 	<link href="css/templatemo-style.css" rel="stylesheet">
+	<link href="css/scrollToTop.css" rel="stylesheet">
 
 </head>
 <body>
+
+	<div class="scroll-up-btn">
+        <i class="fa fa-angle-up"></i>
+    </div>
+
 	<!-- Header -->
 	<div class="tm-header">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
-					<a href="#" class="tm-site-name">Parytana </a>	
+					<a href="#" class="tm-site-name">Paryatana </a>	
 				</div>
 				<div class="col-lg-6 col-md-8 col-sm-9">
 					<div class="mobile-menu-icon">
@@ -94,7 +100,7 @@
 			</div>
 			<div class="row">
 				<!-- contact form -->
-				<form action="#" method="post" class="tm-contact-form">
+				<form   class="tm-contact-form">
 					<div class="col-lg-6 col-md-6">
 						<div id="google-map"></div>
 						<div class="contact-social">
@@ -119,7 +125,7 @@
 							<textarea id="contact_message" class="form-control" rows="6" placeholder="MESSAGE"></textarea>
 						</div>
 						<div class="form-group">
-							<button class="tm-submit-btn" type="submit" name="submit">Submit now</button> 
+							<button class="tm-submit-btn" type="button" name="email-button" onclick=sendEmail() id="email-btn">SUBMIT NOW</button>
 						</div>               
 					</div>
 				</form>
@@ -135,7 +141,9 @@
 			</div>
 		</div>		
 	</footer>
+	<script type="text/javascript" src="js/email.js"></script>
 	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      		<!-- jQuery -->
+	<script type="text/javascript" src="js/scrollToTop.js"></script>					<!-- Scroll To Top -->
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>					<!-- bootstrap js -->
 	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>			<!-- flexslider js -->
 	<script type="text/javascript" src="js/templatemo-script.js"></script>      		<!-- Templatemo Script -->
