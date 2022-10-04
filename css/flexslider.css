@@ -168,6 +168,7 @@ html[xmlns] .flexslider .slides {
   filter: alpha(opacity=0);
   cursor: default;
 }
+
 .flex-pauseplay a {
   display: block;
   width: 20px;
@@ -259,6 +260,7 @@ html[xmlns] .flexslider .slides {
   opacity: 1;
   cursor: default;
 }
+
 /* ====================================================================================================================
  * RESPONSIVE
  * ====================================================================================================================*/
@@ -271,4 +273,5 @@ html[xmlns] .flexslider .slides {
     opacity: 1;
     right: 10px;
   }
+  
 }
