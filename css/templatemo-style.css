@@ -45,7 +45,7 @@ body { overflow-x: hidden; }
 }
 .mobile-menu-icon { display: none; }
 .tm-nav {
-	
+	margin: 0% 10%;
 	display: block;
 	overflow: hidden;
 }
@@ -60,7 +60,7 @@ body { overflow-x: hidden; }
 	text-transform: uppercase;
 	transition: all 0.3s ease;
 	padding: 10px 20px;
-	margin: 20px 5px;
+	margin: 20px 15px;
 	border-radius: 10px;
 }
 .tm-nav li a.active,
