@@ -27,7 +27,9 @@ body { overflow-x: hidden; }
 .tm-header {
 	background: #400361;
 	height: 80px;
-	position: relative;
+	width: 100vw;
+	position: fixed;
+	top:0;
 	z-index: 100;
 }
 .tm-site-name-container { padding-top: 20px; }
@@ -43,6 +45,7 @@ body { overflow-x: hidden; }
 }
 .mobile-menu-icon { display: none; }
 .tm-nav {
+	
 	display: block;
 	overflow: hidden;
 }
@@ -51,17 +54,23 @@ body { overflow-x: hidden; }
 	float: left;
 }
 .tm-nav li a {
-	color: #838383;
+	color: white;
 	display: block;
-	padding: 45px 34px 15px 34px;
+	/* padding: 45px 34px 15px 34px; */
 	text-transform: uppercase;
 	transition: all 0.3s ease;
+	padding: 10px 20px;
+	margin: 20px 5px;
+	border-radius: 10px;
 }
 .tm-nav li a.active,
 .tm-nav li a:focus,
 .tm-nav li a:hover {
 	background: #FCDD44;
 	color: #000;
+}
+.tm-banner{
+	margin-top: 2%;
 }
 
 /* Banner */
@@ -610,7 +619,7 @@ hr { border-top: 1px solid #111010; }
 }
 .contact-image { 
 	float: left; 
-	widthh: 100%;
+	width: 100%;
 	max-width: 494px;
 }
 .contact-text {
@@ -658,6 +667,9 @@ hr { border-top: 1px solid #111010; }
 .contact-social .tm-social-icon:last-child { margin-right: 0; }
 
 @media screen and (max-width: 1199px) {
+	.tm-banner{
+		margin-top: 7%;
+	}
 	.tm-banner-title { font-size: 50px; }
 	.tm-banner-subtitle { font-size: 30px; }
 	.tm-home-section-1 { top: -20px; }
@@ -708,6 +720,7 @@ hr { border-top: 1px solid #111010; }
 }
 
 @media screen and (max-width: 1199px) and (min-width: 992px) {
+
 	.tm-home-box-2-description { width: 94px; }
 	.tm-home-box-2-icon {
 		padding: 18px;
@@ -718,6 +731,9 @@ hr { border-top: 1px solid #111010; }
 }
 
 @media screen and (max-width: 991px) {
+	.tm-banner{
+		margin-top: 8%;
+	}
 	.tm-home-box-1 {
 		margin-bottom: 50px;
 		width: 346px;
@@ -771,7 +787,9 @@ hr { border-top: 1px solid #111010; }
 }
 
 @media screen and (max-width: 767px) {
-	
+	.tm-banner{
+		margin-top: 8%;
+	}
 	/* http://www.impressivewebs.com/animate-display-block-none/
 	 * Comment by Jon Christensen
 	 */
@@ -809,7 +827,7 @@ hr { border-top: 1px solid #111010; }
 	    padding: 6px 15px;
 	    z-index: 1000;
 	}
-	.- { height: 400px;	}
+	/* .- { height: 400px;	} */
 	.tm-banner-title { font-size: 40px;	}
 	.tm-banner-subtitle { font-size: 24px; }
 	.tm-banner-inner { top: 0; }
@@ -844,6 +862,9 @@ hr { border-top: 1px solid #111010; }
 }
 
 @media screen and (max-width: 600px) {
+	.tm-banner{
+		margin-top: 18%;
+	}
 	.col-xxs-12 { width: 100%; }
 	.section-margin-top { margin-top: 50px;	}
 	.tm-banner-title {
@@ -872,6 +893,9 @@ hr { border-top: 1px solid #111010; }
 }
 
 @media screen and (max-width: 420px) {
+	.tm-banner{
+		margin-top: 18%;
+	}
 	.tm-banner-title { font-size: 20px;	}
 	.tm-banner-subtitle { font-size: 12px; }
 	.tm-banner-link { padding: 5px 10px; }
@@ -899,5 +923,8 @@ hr { border-top: 1px solid #111010; }
 }
 
 @media screen and (max-width: 400px) {
+	.tm-banner{
+		margin-top: 20%;
+	}
 	.tm-section-title {	font-size: 28px; }
 }

@@ -26,7 +26,6 @@ Paryatana is the front-end website for travel agency. The website has all detail
 - If you find any bugs then please report them by creating an issue. 
 - If you can make a website look good by modifying then go ahead and describe it in issue and create pulll requst. 
 - If you can add more functionality, then create an issue and contribute by making pull request.
-- [Link to discussion forum](https://github.com/Lakhankumawat/LearnCPP/discussions/7)
  
 ## Want to contribute?
 - Take a look at [`contributing guidelines`](Contributing.md) if you're interested in contributing!
@@ -35,5 +34,5 @@ Paryatana is the front-end website for travel agency. The website has all detail
 ## The heart of this project are our contributors : 
 
 <a href="https://github.com/Arun9739/Paryatana/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Arun9739/Paryatana" />
+  <img src="https://contrib.rocks/image?repo=Arun9739/Paryatana"/>
 </a>
