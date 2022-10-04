@@ -488,7 +488,7 @@ hr { border-top: 1px solid #111010; }
 }
 .tm-about-box-1-img:hover,
 .tm-about-box-1-img:focus {
-	border: 5px solid #E8BA0F;	
+	border: 5px solid #0092CA;	
 }
 .tm-about-box-1-title {
 	font-size: 17px;
@@ -506,7 +506,7 @@ hr { border-top: 1px solid #111010; }
 	font-size: 18px;
 	padding: 0 10px;
 }
-.tm-social-icon:hover {	color: #E8BA0F; }
+.tm-social-icon:hover {	 }
 .tm-testimonials-box {
 	width: 272px;
 	height: 530px;
@@ -527,8 +527,8 @@ hr { border-top: 1px solid #111010; }
 	font-style: italic;
 }
 .tm-testimonial {
-	padding-top: 20px;
-	padding-bottom: 15px;
+	padding-top: -20px;
+	padding-bottom: 22px;
 }
 .tm-what-we-do-right {
 	float: right;
