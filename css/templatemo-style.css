@@ -22,6 +22,7 @@ a:focus {
 	text-decoration: none;
 }
 
+
 /* Header & Nav */
 body { overflow-x: hidden; }
 .tm-header {
@@ -30,7 +31,7 @@ body { overflow-x: hidden; }
 	width: 100vw;
 	position: fixed;
 	top:0;
-	z-index: 100;
+	z-index: 10;
 }
 .tm-site-name-container { padding-top: 20px; }
 .tm-site-name {
