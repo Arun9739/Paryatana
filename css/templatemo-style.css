@@ -244,6 +244,7 @@ body { overflow-x: hidden; }
 .tm-home-box-1 {
 	width: 346px;
 	height: 436px;
+	overflow: hidden;
 }
 .tm-home-box-1-center {
 	margin: 0 auto;
@@ -319,6 +320,7 @@ hr { border-top: 1px solid #111010; }
 .tm-home-box-2 {
 	background-color: white;
 	max-width: 254px;
+	overflow: hidden;
 }
 .tm-home-box-2 h3 {
 	font-size: 14px;
@@ -388,6 +390,7 @@ hr { border-top: 1px solid #111010; }
 	width: 100%;
 	max-width: 532px;
 	margin-bottom: 50px;
+	overflow: hidden;
 }
 .tm-tours-box-1-info {
 	background: white;
@@ -441,6 +444,7 @@ hr { border-top: 1px solid #111010; }
 .tm-tours-box-2 {
 	max-width: 254px;
 	width: 100%;
+	overflow: hidden;
 }
 .tm-tours-box-2-info h3 {
 	font-size: 14px;
@@ -929,4 +933,13 @@ hr { border-top: 1px solid #111010; }
 		margin-top: 20%;
 	}
 	.tm-section-title {	font-size: 28px; }
+}
+
+/* Animations */
+
+img{
+    transition: transform .5s ease;
+}
+img:hover{
+    transform: scale(1.05);
 }
