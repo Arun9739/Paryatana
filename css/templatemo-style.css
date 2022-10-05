@@ -333,6 +333,9 @@ hr { border-top: 1px solid #111010; }
 .tm-home-box-2-container {
 	border-top: 1px solid #DDD;
 	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 .tm-home-box-2-link {
 	display: inline-block;
@@ -357,8 +360,6 @@ hr { border-top: 1px solid #111010; }
 	display: inline-block;
 	text-align: center;
 	text-transform: uppercase;
-	width: 125px;
-	padding-bottom: 18px;
 }
 .tm-home-box-2-description.box-3 { width: 175px; }
 .home-description {
@@ -508,7 +509,9 @@ hr { border-top: 1px solid #111010; }
 	font-size: 18px;
 	padding: 0 10px;
 }
-.tm-social-icon:hover {	 }
+.tm-social-icon:hover {
+	scale: 1.05;
+}
 .tm-testimonials-box {
 	width: 272px;
 	height: 530px;
@@ -680,7 +683,7 @@ hr { border-top: 1px solid #111010; }
 		height: 388px;
 	}
 	.hotel-search-form .form-group { margin-bottom: 18px; }
-	.tm-home-box-2-description { padding-bottom: 15px; }
+	.tm-home-box-2-description { padding: .5rem .75rem; }
 	.tm-home-box-3 {
 		margin-left: auto;
 		margin-right: auto;
@@ -743,7 +746,6 @@ hr { border-top: 1px solid #111010; }
 	}
 	.tm-home-box-2 { margin: 0 auto 30px; }
 	.tm-home-box-2-description {
-		width: 125px;
 		vertical-align: top;
 	}
 	.tm-home-box-2-description.box-3 { width: 175px; }
