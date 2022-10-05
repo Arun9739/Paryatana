@@ -22,6 +22,7 @@ a:focus {
 	text-decoration: none;
 }
 
+
 /* Header & Nav */
 body { overflow-x: hidden; }
 .tm-header {
@@ -30,7 +31,7 @@ body { overflow-x: hidden; }
 	width: 100vw;
 	position: fixed;
 	top:0;
-	z-index: 100;
+	z-index: 10;
 }
 .tm-site-name-container { padding-top: 20px; }
 .tm-site-name {
@@ -445,7 +446,7 @@ hr { border-top: 1px solid #111010; }
 .tm-tours-box-1-info-left,
 .tm-tours-box-1-info-right {
 	float: left;
-	width: 50%;
+	width: 43%;
 }
 .tm-tours-box-1-info-left {
 	border-right: 1px solid #B1B1B1;
@@ -455,7 +456,8 @@ hr { border-top: 1px solid #111010; }
 .margin-bottom-20 { margin-bottom: 20px; }
 .margin-bottom-30 { margin-bottom: 30px; }
 .gray-text { color: #B1B1B1; }
-.tours-1-description { line-height: 1.8; }
+.tours-1-description { line-height: 1.8; width: 251px;}
+#tm-tours-box-1-3{padding-top: 38px;padding-bottom: 38px;}
 .tm-tours-box-1-link { overflow: hidden }
 .tm-tours-box-1-link-left { 
 	background-color: #1CA7C8;
@@ -537,7 +539,7 @@ hr { border-top: 1px solid #111010; }
 }
 .tm-about-box-1-img:hover,
 .tm-about-box-1-img:focus {
-	border: 5px solid #E8BA0F;	
+	border: 5px solid #0092CA;	
 }
 .tm-about-box-1-title {
 	font-size: 17px;
@@ -555,7 +557,7 @@ hr { border-top: 1px solid #111010; }
 	font-size: 18px;
 	padding: 0 10px;
 }
-.tm-social-icon:hover {	color: #E8BA0F; }
+.tm-social-icon:hover {	 }
 .tm-testimonials-box {
 	width: 272px;
 	height: 530px;
@@ -576,8 +578,8 @@ hr { border-top: 1px solid #111010; }
 	font-style: italic;
 }
 .tm-testimonial {
-	padding-top: 20px;
-	padding-bottom: 15px;
+	padding-top: -20px;
+	padding-bottom: 22px;
 }
 .tm-what-we-do-right {
 	float: right;
