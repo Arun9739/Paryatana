@@ -103,7 +103,9 @@ body { overflow-x: hidden; }
 }
 .tm-banner-title,
 .tm-banner-subtitle {
-	color: white;
+	color: rgb(255, 255, 255);
+	text-decoration: solid;
+	text-shadow: 0 0 2px black, 0 0 2px black;
 }
 .tm-banner-title {	
 	font-size: 74px;
@@ -861,6 +863,9 @@ hr { border-top: 1px solid #111010; }
 		float: none;
 	}
 	.tm-about-box-2-text { margin: 30px auto; }
+	.tm-banner-img {
+		height: 40rem !important;
+	}
 }
 
 @media screen and (max-width: 600px) {
