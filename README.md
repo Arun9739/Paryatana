@@ -24,7 +24,7 @@ Paryatana is the front-end website for travel agency. The website has all detail
 
 ## Why contribute?
 - If you find any bugs then please report them by creating an issue. 
-- If you can make a website look good by modifying then go ahead and describe it in issue and create pull requst. 
+- If you can make a website look good by modifying then go ahead and describe it in issue and create pull request. 
 - If you can add more functionality, then create an issue and contribute by making pull request.
  
 ## Want to contribute?
