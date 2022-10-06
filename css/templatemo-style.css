@@ -32,6 +32,7 @@ body { overflow-x: hidden; }
 	position: fixed;
 	top:0;
 	z-index: 10;
+	border-radius: 0 0 85% 85% / 30%;
 }
 .tm-site-name-container { padding-top: 20px; }
 .tm-site-name {
@@ -53,6 +54,7 @@ body { overflow-x: hidden; }
 .tm-nav li {
 	list-style: none;
 	float: left;
+	
 }
 .tm-nav li a {
 	color: white;
@@ -60,9 +62,11 @@ body { overflow-x: hidden; }
 	/* padding: 45px 34px 15px 34px; */
 	text-transform: uppercase;
 	transition: all 0.3s ease;
-	padding: 10px 20px;
+	padding: 7px 17px;
 	margin: 20px 15px;
-	border-radius: 10px;
+	border-radius: 8px;
+	
+
 }
 .tm-nav li a.active,
 .tm-nav li a:focus,
@@ -95,11 +99,17 @@ body { overflow-x: hidden; }
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
+			border-radius: 0 0 85% 85% / 30%;
+			
+			
 }
 .tm-banner-title,
 .tm-banner-subtitle,
 .tm-banner-link {
 	text-transform: uppercase;
+	border-radius: 0 0 85% 85% / 30%;
+
+	
 }
 .tm-banner-title,
 .tm-banner-subtitle {
@@ -117,14 +127,17 @@ body { overflow-x: hidden; }
 	color: #FFF;
 	font-weight: 600;
 	display: inline-block;
-	padding: 18px 40px;
+	padding: 10px 28px;
 	margin-top: 30px;
 	transition: all 0.3s ease;
+	border-radius: 8px;
 }
 .tm-banner-link:hover,
 .tm-banner-link:focus {
 	background: rgba(252, 221, 68, 1);
 	color: #000;
+	
+	
 }
 .flexslider.flexslider-banner {
 	max-width: 100%;
