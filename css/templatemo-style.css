@@ -46,7 +46,7 @@ body { overflow-x: hidden; }
 }
 .mobile-menu-icon { display: none; }
 .tm-nav {
-	margin: 0% 10%;
+	margin: 0% 0%;
 	display: block;
 	overflow: hidden;
 }
@@ -61,7 +61,7 @@ body { overflow-x: hidden; }
 	text-transform: uppercase;
 	transition: all 0.3s ease;
 	padding: 10px 20px;
-	margin: 20px 15px;
+	margin: 20px 5px;
 	border-radius: 10px;
 }
 .tm-nav li a.active,
@@ -287,22 +287,71 @@ body { overflow-x: hidden; }
 	border: none;	
 }
 /* Footer */
-.tm-black-bg { background-color: #000; }
-.tm-copyright-text {
-	color: white;
+
+
+
+.footer {
+	padding: 40px 0;
+	background-color: black;
+  }
+  
+  .footer .social {
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-.tm-copyright-text a {
-	color: #FCDD44;
-}
-
-.tm-copyright-text a:hover {
+	padding-bottom: 25px;
 	color: white;
-}
+  }
+  
+  .footer .social a {
+	font-size: 24px;
+	color: inherit;
+	border: 1px solid white;
+	width: 40px;
+	height: 40px;
+	line-height: 38px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+	margin: 0 8px;
+	opacity: 0.75;
+  }
+  
+  .footer .social a:hover {
+	opacity: 0.9;
+  }
+  
+  .footer ul {
+	margin-top: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.6;
+	margin-bottom: 0;
+  }
+  
+  .footer ul a {
+	color: white;
+	text-decoration: none;
+	opacity: 0.8;
+  }
+  
+  .footer ul li {
+	display: inline-block;
+	padding: 0 15px;
+  }
+  
+  .footer ul a:hover {
+	opacity: 1;
+  }
+  
+  .footer .copyright {
+	margin-top: 15px;
+	text-align: center;
+	font-size: 13px;
+	color: white;
+  }
+  
 
-.hotel-search-form .form-group { margin-bottom: 30px; }
 
 /*Section 2, index.html */
 .section-margin-top { margin-top: 100px; }
@@ -335,6 +384,9 @@ hr { border-top: 1px solid #111010; }
 .tm-home-box-2-container {
 	border-top: 1px solid #DDD;
 	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 .tm-home-box-2-link {
 	display: inline-block;
@@ -359,8 +411,6 @@ hr { border-top: 1px solid #111010; }
 	display: inline-block;
 	text-align: center;
 	text-transform: uppercase;
-	width: 125px;
-	padding-bottom: 18px;
 }
 .tm-home-box-2-description.box-3 { width: 175px; }
 .home-description {
@@ -512,7 +562,9 @@ hr { border-top: 1px solid #111010; }
 	font-size: 18px;
 	padding: 0 10px;
 }
-.tm-social-icon:hover {	 }
+.tm-social-icon:hover {
+	scale: 1.05;
+}
 .tm-testimonials-box {
 	width: 272px;
 	height: 530px;
@@ -684,7 +736,7 @@ hr { border-top: 1px solid #111010; }
 		height: 388px;
 	}
 	.hotel-search-form .form-group { margin-bottom: 18px; }
-	.tm-home-box-2-description { padding-bottom: 15px; }
+	.tm-home-box-2-description { padding: .5rem .75rem; }
 	.tm-home-box-3 {
 		margin-left: auto;
 		margin-right: auto;
@@ -747,7 +799,6 @@ hr { border-top: 1px solid #111010; }
 	}
 	.tm-home-box-2 { margin: 0 auto 30px; }
 	.tm-home-box-2-description {
-		width: 125px;
 		vertical-align: top;
 	}
 	.tm-home-box-2-description.box-3 { width: 175px; }
