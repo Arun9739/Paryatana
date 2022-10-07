@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,6 +23,13 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
 	<link rel="manifest" href="./favicon/site.webmanifest">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 </head>
 
 <body class="tm-gray-bg">
@@ -30,23 +39,26 @@
 		<i class="fa fa-angle-up"></i>
 	</div>
 
-	<!-- Header -->
-	<div class="tm-header">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
-					<a href="index.html" class="tm-site-name">Paryatana</a>
-				</div>
-				<div class="col-lg-6 col-md-8 col-sm-9">
-					<div class="mobile-menu-icon">
-						<i class="fa fa-bars"></i>
-					</div>
-					<nav class="tm-nav">
+
+  	<!-- Header -->
+  	<div class="tm-header">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-lg-5 col-md-4 col-sm-3 tm-site-name-container">
+  					<a href="index.html" class="tm-site-name">Paryatana</a>	
+  				</div>
+	  			<div class="col-lg-7 col-md-8 col-sm-9">
+	  				<div class="mobile-menu-icon">
+		              <i class="fa fa-bars"></i>
+		            </div>
+	  				<nav class="tm-nav">
 						<ul>
 							<li><a href="index.html" class="active">Home</a></li>
 							<li><a href="about.html">About</a></li>
 							<li><a href="tours.html">Our Tours</a></li>
 							<li><a href="contact.html">Contact</a></li>
+							<li><a href="favourites.html"><i class="fa fa-heart "></i></a></li>
+							
 						</ul>
 					</nav>
 				</div>
@@ -416,21 +428,48 @@
 			</div>
 		</div>
 	</section>
-	<footer class="tm-black-bg">
-		<div class="container">
-			<div class="row">
-				<p class="tm-copyright-text">Copyright &copy; 2022 Paryatana
 
-					| Designed by Arun G Nayak</p>
-			</div>
+	
+	<!-- footer -->
+	<section class="footer">
+		<div class="social">
+			<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+ 
+			
 		</div>
-	</footer>
-	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script> <!-- jQuery -->
-	<script type="text/javascript" src="js/scrollToTop.js"></script> <!-- Scroll To Top -->
-	<script type="text/javascript" src="js/moment.js"></script> <!-- moment.js -->
-	<script type="text/javascript" src="js/bootstrap.min.js"></script> <!-- bootstrap js -->
-	<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
-	<!-- bootstrap date time picker js, http://eonasdan.github.io/bootstrap-datetimepicker/ -->
+  
+		<ul class="list">
+		  <li>
+			<a href="index.html">Home</a>
+		  </li>
+		
+		  <li>
+			<a href="about.html">About</a>
+		  </li>
+		  <li>
+			<a href="tours.html">Our Tours</a>
+		  </li>
+		  <li>
+			<a href="contact.html">Contact</a>
+		  </li>
+		</ul>
+		<p class="copyright">Copyright &copy; 2022 Paryatana 
+                
+			| Designed by Arun G Nayak</p>
+	  </section>
+	  <!-- footer -->
+
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      		<!-- jQuery -->
+	<script type="text/javascript" src="js/scrollToTop.js"></script>					<!-- Scroll To Top -->
+  	<script type="text/javascript" src="js/moment.js"></script>							<!-- moment.js -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>					<!-- bootstrap js -->
+	<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>	<!-- bootstrap date time picker js, http://eonasdan.github.io/bootstrap-datetimepicker/ -->
+
+	
+
 	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
 
 	<script type="text/javascript" src="js/templatemo-script.js"></script> <!-- Templatemo Script -->
@@ -473,7 +512,28 @@
 			});
 
 
-		});
+
+	  	});
+
+		//add favourite place
+
+
+		function addPlace(place){
+			
+			let placeName = place.getAttribute("data-name");
+		let  placeSrc = place.getAttribute("data-src");
+    let places = [];
+    if(localStorage.getItem('places')){
+        places = JSON.parse(localStorage.getItem('places'));
+		
+    }
+
+		places.push({'placeName' : placeName, placeSrc : placeSrc});
+
+	
+    localStorage.setItem('places', JSON.stringify(places));
+}
+
 	</script>
 	<!-- Preloader Script -->
 	<script type="text/javascript">
