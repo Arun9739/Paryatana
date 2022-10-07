@@ -17,7 +17,7 @@
 	<link href="css/flexslider.css" rel="stylesheet">
 	<link href="css/templatemo-style.css" rel="stylesheet">
 	<link href="css/scrollToTop.css" rel="stylesheet">
-	<!-- <link href="css/Homenavbar.css" rel="stylesheet"> -->
+	<link href="css/Homenavbar.css" rel="stylesheet">
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
@@ -74,23 +74,26 @@
 		<i class="fa fa-angle-up"></i>
 	</div>
 
-	<!-- Header -->
-	<div class="tm-header">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
-					<a href="index.html" class="tm-site-name">Paryatana</a>
-				</div>
-				<div class="col-lg-6 col-md-8 col-sm-9">
-					<div class="mobile-menu-icon">
-						<i class="fa fa-bars"></i>
-					</div>
-					<nav class="tm-nav">
+
+  	<!-- Header -->
+  	<div class="tm-header">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-lg-5 col-md-4 col-sm-3 tm-site-name-container">
+  					<a href="index.html" class="tm-site-name">Paryatana</a>	
+  				</div>
+	  			<div class="col-lg-7 col-md-8 col-sm-9">
+	  				<div class="mobile-menu-icon">
+		              <i class="fa fa-bars"></i>
+		            </div>
+	  				<nav class="tm-nav">
 						<ul>
 							<li><a href="index.html" class="active">Home</a></li>
 							<li><a href="about.html">About</a></li>
 							<li><a href="tours.html">Our Tours</a></li>
 							<li><a href="contact.html">Contact</a></li>
+							<li><a href="favourites.html"><i class="fa fa-heart "></i></a></li>
+							
 						</ul>
 					</nav>
 				</div>
@@ -289,7 +292,7 @@
 			
 			<!--MODIFIED BASIC CARDS DESIGN TO TRENDY CARDS DESIGN (GLASSMORPHISIM CSS) - BY ANIKET SINHA- Hacktoberfest2022-->
 		
-			<div class="row">
+        <div class="row">
 
 				<div  class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
 					<div class="tm-home-box-2" id="box-shadow">
@@ -538,7 +541,28 @@
 			});
 
 
-		});
+
+	  	});
+
+		//add favourite place
+
+
+		function addPlace(place){
+			
+			let placeName = place.getAttribute("data-name");
+		let  placeSrc = place.getAttribute("data-src");
+    let places = [];
+    if(localStorage.getItem('places')){
+        places = JSON.parse(localStorage.getItem('places'));
+		
+    }
+
+		places.push({'placeName' : placeName, placeSrc : placeSrc});
+
+	
+    localStorage.setItem('places', JSON.stringify(places));
+}
+
 	</script>
 	<!-- Preloader Script -->
 	<script type="text/javascript">
