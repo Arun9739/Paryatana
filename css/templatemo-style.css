@@ -130,6 +130,7 @@ body {
   color: #fcdd44;
 }
 .tm-banner-link {
+
   background: rgba(252, 221, 68, 0.39) none repeat scroll 0% 0%;
   border: 1px solid #d2b731;
   color: #fff;
@@ -138,6 +139,7 @@ body {
   padding: 18px 40px;
   margin-top: 30px;
   transition: all 0.3s ease;
+
 }
 .tm-banner-link:hover,
 .tm-banner-link:focus {
@@ -259,6 +261,7 @@ body {
   font-weight: 600;
 }
 .tm-yellow-btn {
+
   width: 130px;
   height: 40px;
   background-color: #f5d338;
@@ -268,6 +271,7 @@ body {
   margin: 24px auto;
   text-transform: uppercase;
   box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+
 }
 .tm-yellow-btn:hover,
 .tm-yellow-btn:focus {
@@ -467,8 +471,13 @@ hr {
   text-transform: uppercase;
 }
 .tm-home-box-2-container {
-  border-top: 1px solid #ddd;
-  overflow: hidden;
+
+	border-top: 1px solid #DDD;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
 }
 .tm-home-box-2-link {
   display: inline-block;
@@ -494,6 +503,7 @@ hr {
   font-size: 1.4em;
 }
 .tm-home-box-2-description {
+
   display: inline-block;
   text-align: center;
   text-transform: uppercase;
@@ -502,6 +512,7 @@ hr {
 }
 .tm-home-box-2-description.box-3 {
   width: 175px;
+
 }
 .home-description {
   margin: 50px auto;
@@ -680,6 +691,11 @@ hr {
 }
 .tm-social-icon:hover {
 }
+
+.tm-social-icon:hover {
+	scale: 1.05;
+}
+
 .tm-testimonials-box {
   width: 272px;
   height: 530px;
@@ -879,6 +895,7 @@ hr {
 }
 
 @media screen and (max-width: 1199px) {
+
   .tm-banner {
     margin-top: 7%;
   }
@@ -957,7 +974,8 @@ hr {
   .flexslider.flexslider-about .slides img {
     width: 450px;
   }
-}
+
+
 
 @media screen and (max-width: 1199px) and (min-width: 992px) {
   .tm-home-box-2-description {
@@ -1047,7 +1065,7 @@ hr {
   .tm-contact-form-input {
     margin-top: 50px;
   }
-}
+
 
 @media screen and (max-width: 767px) {
   .tm-banner {
