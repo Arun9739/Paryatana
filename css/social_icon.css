@@ -1,0 +1,13 @@
+/* Hover effects for icon */
+.fa-instagram:hover {
+    color: #fb3958;
+}
+.fa-linkedin:hover {
+    color: #0077b5;
+}
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
+.fa-facebook-f:hover {
+    color: #4267B2;
+}
