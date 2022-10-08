@@ -1,7 +1,56 @@
 .tm-nav {
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .tm-nav li a {
+    margin: 20px 5px;
+  }
+  body{
+    background-color: antiquewhite;
 }
-.tm-nav li a {
-  margin: 20px 5px;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+   font-family: 'Ubuntu';
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 75px;
+    background-color: black;
+    color: white;
+}
+
+.logoitem{
+    align-items: center;
+    font-size: 28px;
+    margin-right: 60px;
+    padding-left: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navitem1 a{
+    font-size: 18px;
+    padding-left: 6px;
+}
+.navitem2 a{
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.brand img{
+    width: 60px;
+    padding-top: 7px;
+    padding-left: 15px;
 }
