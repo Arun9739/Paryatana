@@ -1,7 +1,7 @@
-
-.tm-nav{
-    margin: 0% 0%;
-}
-.tm-nav li a{
+.tm-nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .tm-nav li a {
     margin: 20px 5px;
-}
+  }
