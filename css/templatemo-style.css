@@ -22,7 +22,6 @@ a:focus {
 	text-decoration: none;
 }
 
-
 /* Header & Nav */
 body { overflow-x: hidden; }
 .tm-header {
@@ -352,7 +351,13 @@ body { overflow-x: hidden; }
 	color: white;
   }
   
+  .copyright a {
+	color: inherit;
+  }
 
+  .copyright a:hover {
+	text-decoration: underline;
+  }
 
 /*Section 2, index.html */
 .section-margin-top { margin-top: 100px; }
