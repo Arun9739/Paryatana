@@ -26,7 +26,7 @@ a:focus {
 /* Header & Nav */
 body { overflow-x: hidden; }
 .tm-header {
-	background: #400361;
+	background: #1F3442;
 	height: 80px;
 	width: 100vw;
 	position: fixed;
@@ -35,7 +35,7 @@ body { overflow-x: hidden; }
 }
 .tm-site-name-container { padding-top: 20px; }
 .tm-site-name {
-	color: #FCDD44;
+	color: #21a3e4;
 	font-size: 27px;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -67,7 +67,7 @@ body { overflow-x: hidden; }
 .tm-nav li a.active,
 .tm-nav li a:focus,
 .tm-nav li a:hover {
-	background: #FCDD44;
+	background: #286090;
 	color: #000;
 }
 .tm-banner{
@@ -110,10 +110,10 @@ body { overflow-x: hidden; }
 	font-weight: 600;
 }
 .tm-banner-subtitle { font-size: 34px; }
-.tm-yellow-text { color: #FCDD44; }
+.tm-yellow-text { color: #282620; }
 .tm-banner-link {
-	background: rgba(252, 221, 68, 0.39) none repeat scroll 0% 0%;
-	border: 1px solid #D2B731;
+	background: #286090 none repeat scroll 0% 0%;
+	border: 1px solid #06345c;
 	color: #FFF;
 	font-weight: 600;
 	display: inline-block;
@@ -124,7 +124,7 @@ body { overflow-x: hidden; }
 }
 .tm-banner-link:hover,
 .tm-banner-link:focus {
-	background: rgba(252, 221, 68, 1);
+	background: #286090;
 	color: #000;
 }
 .flexslider.flexslider-banner {
@@ -136,7 +136,7 @@ body { overflow-x: hidden; }
 	text-align: center;
 }
 .flexslider.flexslider-banner .flex-direction-nav a:before {
-	color: #FCDD44;
+	color: #0d416f;
 }
 .flex-direction-nav a {
 	height: 50px;
@@ -155,7 +155,7 @@ body { overflow-x: hidden; }
 }
 .tm-yellow-gradient-bg {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5d11d+0,f3d10e+1,efcf1c+2,fccd0d+4,f7ca0d+5,f9cb1e+6,f7cb10+7,f8cc14+8,f0c40c+54,edc50c+55,e9c108+71,ecc008+78,e6be06+91,e9bd06+93,e8bc06+100 */
-	background: #f5d11d; /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
+	background: #286090; /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
 	background: linear-gradient(to bottom,  #f5d11d 0%,#f3d10e 1%,#efcf1c 2%,#fccd0d 4%,#f7ca0d 5%,#f9cb1e 6%,#f7cb10 7%,#f8cc14 8%,#f0c40c 54%,#edc50c 55%,#e9c108 71%,#ecc008 78%,#e6be06 91%,#e9bd06 93%,#e8bc06 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5d11d', endColorstr='#e8bc06',GradientType=0 ); /* IE6-9 */
 }
@@ -195,7 +195,7 @@ body { overflow-x: hidden; }
 .tm-yellow-btn {
 	width: 130px;
 	height: 40px;
-	background-color: #F5D338;
+	background-color: #d3b631;
 	border: medium none;
 	color: #5C4905;
 	font-size: 12px;
@@ -382,7 +382,7 @@ hr { border-top: 1px solid #111010; }
 	text-transform: uppercase;
 }
 .tm-home-box-2-container {
-	border-top: 1px solid #DDD;
+	border-top: 1px solid rgb(10, 7, 7);
 	overflow: hidden;
 	display: flex;
 	justify-content: space-between;
@@ -397,7 +397,7 @@ hr { border-top: 1px solid #111010; }
 }
 .tm-home-box-2-link:hover,
 .tm-home-box-2-link:focus {
-	color: #FCDD44;
+	color: #0b86f0;
 }
 .border-left { border-left: 1px solid #DDD; }
 .border-right {	border-right: 1px solid #DDD; }
@@ -429,7 +429,7 @@ hr { border-top: 1px solid #111010; }
     height: 225px;
     max-width: 305px;
     float: right;
-    border: 1px solid #CCC;
+    border: 1px solid rgb(5, 4, 4);
 	border-left: none;
 }
 .tm-home-box-3-description { padding: 40px 30px 44px; }
