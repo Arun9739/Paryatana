@@ -11,3 +11,9 @@
 .fa-facebook-f:hover {
     color: #4267B2;
 }
+
+/* making cursor to pointer in social div */
+
+.social:hover {
+    cursor: pointer;
+}
