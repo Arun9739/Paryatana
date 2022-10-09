@@ -8128,6 +8128,10 @@ button.close {
     .visible-xs-block {
         display: block !important
     }
+    .form-control{
+        width: 100%;
+        height: 34px;
+    }
 }
 
 @media (max-width:767px) {
