@@ -61,7 +61,7 @@ body { overflow-x: hidden; }
 	transition: all 0.3s ease;
 	padding: 10px 20px;
 	margin: 20px 5px;
-	border-radius: 5px;
+	border-radius: 10px;
 }
 .tm-nav li a.active,
 .tm-nav li a:focus,
@@ -103,16 +103,13 @@ body { overflow-x: hidden; }
 .tm-banner-title,
 .tm-banner-subtitle {
 	color: white;
-	text-shadow: 2px 2px #000;
 }
 .tm-banner-title {	
 	font-size: 74px;
 	font-weight: 600;
-	text-shadow: 2px 2px #000;
 }
 .tm-banner-subtitle { font-size: 34px; }
-.tm-purple-text { color: #400361; 
-text-shadow: 2px 2px #000;}
+.tm-yellow-text { color: #FCDD44; }
 .tm-banner-link {
 	background: rgba(252, 221, 68, 0.39) none repeat scroll 0% 0%;
 	border: 1px solid #D2B731;
@@ -161,18 +158,21 @@ text-shadow: 2px 2px #000;}
 	background: linear-gradient(to bottom,  #f5d11d 0%,#f3d10e 1%,#efcf1c 2%,#fccd0d 4%,#f7ca0d 5%,#f9cb1e 6%,#f7cb10 7%,#f8cc14 8%,#f0c40c 54%,#edc50c 55%,#e9c108 71%,#ecc008 78%,#e6be06 91%,#e9bd06 93%,#e8bc06 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5d11d', endColorstr='#e8bc06',GradientType=0 ); /* IE6-9 */
 }
-.tm-purple-gradient-bg {
+.tm-green-gradient-bg {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ec66b+0,2dc970+1,2ac96c+2,2bc76e+4,2bc869+5,2ac871+6,29c86c+7,28c76b+15,2bc76c+16,21bb61+73,1eb860+100 */
-	background: #400361; /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
-	/* background: linear-gradient(to bottom,  #2ec66b 0%,#2dc970 1%,#2ac96c 2%,#2bc76e 4%,#2bc869 5%,#2ac871 6%,#29c86c 7%,#28c76b 15%,#2bc76c 16%,#21bb61 73%,#1eb860 100%); W3C */
+	background: #2ec66b; /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
+	background: linear-gradient(to bottom,  #2ec66b 0%,#2dc970 1%,#2ac96c 2%,#2bc76e 4%,#2bc869 5%,#2ac871 6%,#29c86c 7%,#28c76b 15%,#2bc76c 16%,#21bb61 73%,#1eb860 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ec66b', endColorstr='#1eb860',GradientType=0 ); /* IE6-9 */
 }
-.tm-purple-gradient-bg:hover{
-	background: #570981; /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ec66b', endColorstr='#1eb860',GradientType=0 ); /* IE6-9 */
+.tm-red-gradient-bg {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e97262+0,ef6865+1,ed6c5f+2,f07162+4,f17062+5,eb6f67+6,ec6c5f+7,ec6b5e+18,eb5d4f+56,e95242+100 */
+	background: #e97262; /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
+	background: linear-gradient(to bottom,  #e97262 0%,#ef6865 1%,#ed6c5f 2%,#f07162 4%,#f17062 5%,#eb6f67 6%,#ec6c5f 7%,#ec6b5e 18%,#eb5d4f 56%,#e95242 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e97262', endColorstr='#e95242',GradientType=0 ); /* IE6-9 */
 }
 .tm-yellow-gradient-bg,
-.tm-purple-gradient-bg{
+.tm-green-gradient-bg,
+.tm-red-gradient-bg {
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
@@ -196,7 +196,7 @@ text-shadow: 2px 2px #000;}
 	height: 40px;
 	background-color: #F5D338;
 	border: medium none;
-	color: black;
+	color: #5C4905;
 	font-size: 12px;
 	margin: 24px auto;
 	text-transform: uppercase;
@@ -268,19 +268,16 @@ text-shadow: 2px 2px #000;}
 	padding-bottom: 15px;
 	text-align: center;
 	text-transform: uppercase;
-	background: #400361;
-	/* background: transparent linear-gradient(to bottom, #F5D11D 0%, #F3D10E 1%, #EFCF1C 2%, #FCCD0D 4%, #F7CA0D 5%, #F9CB1E 6%, #F7CB10 7%, #F8CC14 8%, #F0C40C 54%, #EDC50C 55%, #E9C108 71%, #ECC008 78%, #E6BE06 91%, #E9BD06 93%, #E8BC06 100%) repeat scroll 0% 0%; */
+	background: transparent linear-gradient(to bottom, #F5D11D 0%, #F3D10E 1%, #EFCF1C 2%, #FCCD0D 4%, #F7CA0D 5%, #F9CB1E 6%, #F7CB10 7%, #F8CC14 8%, #F0C40C 54%, #EDC50C 55%, #E9C108 71%, #ECC008 78%, #E6BE06 91%, #E9BD06 93%, #E8BC06 100%) repeat scroll 0% 0%;
 	border: none;
-	color: rgb(255, 242, 0);
-	text-shadow: 0.5px 0.5px #000;
 	border-radius: 0;
+	color: #5C4905;
 	font-weight: 600;
 }
 #hotelCarTabs > li > a:hover,
 #hotelCarTabs > li > a:focus {
 	border: none;
-	background: #FCDD44;
-	color: #000;
+	background: #F9E58B;
 }
 #hotelCarTabs > li.active > a, 
 #hotelCarTabs > li.active > a:focus, 
@@ -471,7 +468,7 @@ hr { border-top: 1px solid #111010; }
 #tm-tours-box-1-3{padding-top: 38px;padding-bottom: 38px;}
 .tm-tours-box-1-link { overflow: hidden }
 .tm-tours-box-1-link-left { 
-	background-color: #570981;
+	background-color: #1CA7C8;
 	padding: 20px 30px;
 	float: left;
 	width: 75%;
@@ -479,7 +476,7 @@ hr { border-top: 1px solid #111010; }
 }
 .tm-tours-box-1-link-right {
 	float: left;
-	background-color: #400361;
+	background-color: #1687A6;
 	font-weight: 600;
 	font-size: 18px;
 	display: block;
@@ -490,9 +487,8 @@ hr { border-top: 1px solid #111010; }
 }
 .tm-tours-box-1-link-right:hover,
 .tm-tours-box-1-link-right:focus {
-	color: black;
-	font-weight: bold;
-	background-color: #E8BA0F;
+	color: white;
+	background-color: #1D98B9;
 }
 .tm-tours-box-1-link-left,
 .tm-tours-box-1-link-right {
@@ -519,15 +515,14 @@ hr { border-top: 1px solid #111010; }
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
-	background-color: #570981;
+	background-color: #8C8C8C;
 	color: white;
 	text-transform: uppercase;
 	transition: all 0.3s ease;
 }
 .tm-tours-box-2-link:hover,
 .tm-tours-box-2-link:focus {
-	color: black;
-	font-weight: bold;
+	color: white;
 	background-color: #E8BA0F;
 }
 
@@ -709,12 +704,12 @@ hr { border-top: 1px solid #111010; }
 	width: 100%;
 	border: none;
 	height: 40px;
-	color: #000;
 	text-transform: uppercase;
+	font-style: italic;
 	font-size: 12px;
-	border-radius: 5px;
+	font-weight: 600;
 }
-.tm-submit-btn:hover { background: #f5d11d; 	font-weight: bold;}
+.tm-submit-btn:hover { background: #f5d11d; }
 .contact-social { margin-top: 20px; }
 .contact-social .fa { color: white; }
 .tm-social-facebook { background-color: #4A7DBB; }
