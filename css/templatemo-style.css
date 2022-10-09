@@ -1022,3 +1022,28 @@ hr { border-top: 1px solid #111010; }
 	}
 	.tm-section-title {	font-size: 28px; }
 }
+.upper_links:hover{
+	box-shadow: 1px 1px 5px 9px rgb(59, 2, 59);
+}
+#one{
+	box-shadow: 1px 1px 5px 9px rgb(59, 2, 59);
+}
+.tm-banner-link{
+	transition: transform 0.04s;
+}
+.tm-banner-link:hover{
+	transform: scale(1.07);
+}
+.tm-yellow-btn:hover{
+	box-shadow:1px 1px 12px 9px rgb(116, 116, 20); 
+}
+.bottom:hover{
+	color: purple;
+}
+.media{
+	transition: transform 0.02s;
+}
+.media:hover{
+	transform: scale(1.10);
+	background-color: purple
+}
