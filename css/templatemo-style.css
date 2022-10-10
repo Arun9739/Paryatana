@@ -1043,6 +1043,7 @@ hr { border-top: 1px solid #111010; }
 }
 .bottom:hover{
 	color: purple;
+	transform: 'scale(1.5)',
 }
 .media{
 	transition: transform 0.02s;
