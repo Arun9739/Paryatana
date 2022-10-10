@@ -1,0 +1,16 @@
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    margin: 0;
+}
+
+.tm-header .container .row img{
+    transition: 1s ease;
+}
+.tm-header .container .row img:hover{
+    transform: scale(1.2);
+    text-shadow: 3px 3px 8px #FF720B;
+}
