@@ -3430,6 +3430,7 @@ input[type=search] {
 }
 
 .form-group {
+    margin-top: 8%;
     width:100%;
     margin: 0px 0px;
 }
