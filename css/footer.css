@@ -1,119 +1,113 @@
-html{
-    font-size: 62.5%;
+.footer{
+    background: #400361;
+    padding: 20px 88.8375px;
 }
 
-
-body{
-    margin: 0;
-}
-
-footer{
-    display: flex;
-    background-color: #400361;
-    padding-bottom: 2.8rem;
-}
-
-footer .pages{
+.footer .box-container{
     display: grid;
-    width: 30%;
-    text-align: center;
-    margin-top: 6.0rem;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
 }
-footer .pages a{
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Changa', sans-serif;
-    color: rgb(240, 235, 235);
-    font-size: 1.9rem;
-    padding: 0rem;
-    margin: 0rem;
-}
-footer .pages a:hover{
-    color: rgb(83, 81, 81);
-}
-footer .logo_bot{
-    text-align: center;
-    width: 40%;
-    margin: 0rem;
-}
-footer .logo_bot img{
-    padding-bottom: 0rem;
-    margin-right: 6%;
-    width: 30rem;
-    height: auto;
-    padding-bottom: -5rem;
-    margin-bottom: -7.5rem;
-}
-footer .doc{
-    display: grid;
-    width: 30%;
-    text-align: right;
-    margin-top: 2.3rem;
-}
-footer .doc a{
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Changa', sans-serif;
-    color: rgb(240, 235, 235);
-    font-size: 1.7rem;
-    padding-left: 0.8rem;
-    margin: 0rem;
-}
-footer .doc a:hover{
-    color: rgb(83, 81, 81);
-}
-footer .follow{
-    display: grid;
-    width: 25%;
-    text-align: center;
-    margin-top: 3rem;
-}
-footer .follow h4{
-    font-family: 'Roboto', sans-serif;
-    color: rgb(240, 235, 235);
+
+.footer .box-container .box h3{
     font-size: 2.5rem;
-    font-weight: bold;
-    padding: 0.5rem;
-    margin-bottom: 0.1rem;
-    text-decoration: underline;
-}
-footer .follow a{
-    size: 9.0rem;
-    width: auto;
-    color: rgb(240, 235, 235);
-    transition: 0.5s;
-}
-footer .follow a:hover{
-    color: #FF720B;
-    transition: 0.5s;
-}
-#customer{
-    font-size: 2.0rem;
-    color: rgb(240, 235, 235);
+    color:gainsboro;
+    padding:1rem 0;
 }
 
-@media(max-width: 1122px){
-    html{
-        font-size: 65%;
-    }
+.footer .box-container .box h3 i{
+    color:#fcdd44;
 }
-@media(max-width: 998px){
-    html{
-        font-size: 55%;
-    }
+
+.footer .box-container .box .links{
+    display: block;
+    font-size: 1.5rem;
+    color:var(--light-color);
+    padding:1rem 0;
 }
-@media(max-width: 817px){
-    html{
-        font-size: 45%;
-    }
+
+.footer .box-container .box span{
+    display: block;
 }
-@media(max-width: 768px){
-    html{
-        font-size: 45%;
-    }
+
+.footer .box-container .box .links i{
+    color:#fcdd44;
+    padding-right: .5rem;
 }
-@media(max-width: 655px){
+
+.footer .box-container .box .links:hover i{
+    padding-right: 2rem;
+}
+
+
+.footer .box-container .box p{
+    line-height: 1.8;
+    font-size: 1.5rem;
+    color:gainsboro;
+    padding:1rem 0;
+}
+
+.footer .box-container .box .share a{
+    height:4rem;
+    width:4rem;
+    line-height:4rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    color:var(--black);
+    margin-right: .2rem;
+    background: rgb(181, 179, 180);
+    text-align: center;
+}
+
+.footer .box-container .box .share a:hover{
+    background: var(--orange);
+    color: rgb(100, 3, 118);
+}
+
+.footer .box-container .box .contact-info a{
+    display: inline;
+    margin-right: 30px;
+    font-size: 25px;
+    color: gainsboro;
+}
+
+.footer .box-container .box .share a:hover{
+    background: #fcdd44;
+    color: #fff;
+}
+
+
+.footer .credit{
+    text-align: center;
+    margin-top: 2rem;
+    padding:1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color:gainsboro;
+    border-top: .1rem solid rgba(255, 255, 255, .2);
+    /* border-top: var(--border); */
+}
+
+.footer .credit span{
+    color:#fcdd44;
+}
+
+@media (max-width:450px){
+
     html{
-        font-size: 45%;
+        font-size: 50%;
     }
+
+    .heading{
+        font-size: 2.5rem;
+    }
+
+    .footer{
+        text-align: center;
+    }
+
+    .footer .box-container .box .payment-img{
+        margin: 2rem auto;
+    }
+
 }
