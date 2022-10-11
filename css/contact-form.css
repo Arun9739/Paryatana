@@ -1,0 +1,19 @@
+.contactheading {
+    color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.contact-para {
+    color: aliceblue;
+    font-size: 14px;
+}
+#contact-form{
+    background: rgba(0, 0, 0, 0.907);
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 20px;
+}
+#contact-form input {
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
