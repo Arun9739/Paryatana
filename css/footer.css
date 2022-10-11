@@ -1,0 +1,119 @@
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    margin: 0;
+}
+
+footer{
+    display: flex;
+    background-color: #400361;
+    padding-bottom: 2.8rem;
+}
+
+footer .pages{
+    display: grid;
+    width: 30%;
+    text-align: center;
+    margin-top: 6.0rem;
+}
+footer .pages a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Changa', sans-serif;
+    color: rgb(240, 235, 235);
+    font-size: 1.9rem;
+    padding: 0rem;
+    margin: 0rem;
+}
+footer .pages a:hover{
+    color: rgb(83, 81, 81);
+}
+footer .logo_bot{
+    text-align: center;
+    width: 40%;
+    margin: 0rem;
+}
+footer .logo_bot img{
+    padding-bottom: 0rem;
+    margin-right: 6%;
+    width: 30rem;
+    height: auto;
+    padding-bottom: -5rem;
+    margin-bottom: -7.5rem;
+}
+footer .doc{
+    display: grid;
+    width: 30%;
+    text-align: right;
+    margin-top: 2.3rem;
+}
+footer .doc a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Changa', sans-serif;
+    color: rgb(240, 235, 235);
+    font-size: 1.7rem;
+    padding-left: 0.8rem;
+    margin: 0rem;
+}
+footer .doc a:hover{
+    color: rgb(83, 81, 81);
+}
+footer .follow{
+    display: grid;
+    width: 25%;
+    text-align: center;
+    margin-top: 3rem;
+}
+footer .follow h4{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(240, 235, 235);
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.1rem;
+    text-decoration: underline;
+}
+footer .follow a{
+    size: 9.0rem;
+    width: auto;
+    color: rgb(240, 235, 235);
+    transition: 0.5s;
+}
+footer .follow a:hover{
+    color: #FF720B;
+    transition: 0.5s;
+}
+#customer{
+    font-size: 2.0rem;
+    color: rgb(240, 235, 235);
+}
+
+@media(max-width: 1122px){
+    html{
+        font-size: 65%;
+    }
+}
+@media(max-width: 998px){
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width: 817px){
+    html{
+        font-size: 45%;
+    }
+}
+@media(max-width: 768px){
+    html{
+        font-size: 45%;
+    }
+}
+@media(max-width: 655px){
+    html{
+        font-size: 45%;
+    }
+}
