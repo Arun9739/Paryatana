@@ -87,6 +87,15 @@ footer .follow a:hover{
     color: #FF720B;
     transition: 0.5s;
 }
+footer .follow .linkedin:hover{
+    color: #0077b5;
+}
+footer .follow .instagram:hover{
+    color: #bc2a8d;
+}
+footer .follow .twitter:hover{
+    color: #00acee;
+}
 #customer{
     font-size: 2.0rem;
     color: rgb(240, 235, 235);
