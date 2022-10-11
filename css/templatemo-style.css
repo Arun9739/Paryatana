@@ -810,7 +810,7 @@ hr { border-top: 1px solid #111010; }
 		margin-top: 50px;
 		max-width: 100%;
 	}
-	.tm-contact-form-input { margin-top: 50px; }
+	.tm-contact-form-input { margin-top: 50px;}
 }
 
 @media screen and (max-width: 767px) {

@@ -3316,21 +3316,44 @@ output {
 .form-control {
     display: block;
     width: 100%;
-   height: 5rem;
+   height: 4.5 rem;
     padding: 6px 12px;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.42857143;
     color: #555;
     transition: all 0.5s;
     background-color: rgb(255, 255, 255);
     background-image: none;
-    border: 1px solid rgb(231, 231, 231);
+    border: 0.1px solid rgb(231, 231, 231);
     border-radius: 4px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
     -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
     -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+/*Contact form Styling*/
+
+.contactheading, .contact-para{
+    text-align: center;
+    margin:2% 0%;
+    color:#440361;
+}
+
+.contactheading {
+    font-weight: 900;
+}
+
+#email-btn{
+    width:50%;
+    border-radius: 12px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#440361;
+    font-size: 14px;
+    line-height: 1.42857143;
+    font-style: normal;
+    margin: 0 30%;
 }
 
 .form-control:focus {
@@ -3407,7 +3430,8 @@ input[type=search] {
 }
 
 .form-group {
-    margin-bottom: 15px
+    width:80%;
+    margin: 15px 55px;
 }
 
 .checkbox,
