@@ -3430,8 +3430,8 @@ input[type=search] {
 }
 
 .form-group {
-    width:80%;
-    margin: 15px 55px;
+    width:100%;
+    margin: 0px 0px;
 }
 
 .checkbox,
