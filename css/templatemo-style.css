@@ -24,6 +24,16 @@ a:focus {
 
 /* Header & Nav */
 body { overflow-x: hidden; }
+
+.fixed {
+	position: fixed;
+	top: 0;
+	height: 70px;
+	z-index: 1000;
+	width: 100%;
+	transition: all 0.3s ease-in-out;
+}
+
 .tm-header {
 	background: #400361;
 	height: 12vh;

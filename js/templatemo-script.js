@@ -12,5 +12,16 @@ $(document).ready(function(){
 	});
   
   	// http://stackoverflow.com/questions/2851663/how-do-i-simulate-a-hover-with-a-touch-in-touch-enabled-browsers
-  	$('body').bind('touchstart', function() {});
+	$('body').bind('touchstart', function() {});
+
+	$(window).bind('scroll', function() {
+		const navHeight = $(window).height() - 500;
+		console.log(navHeight)
+		if ($(window).scrollTop() > navHeight) {
+			$('#tmHeader').addClass('fixed');
+		}
+		else {
+			$('#tmHeader').removeClass('fixed');
+		}
+	});
 });
