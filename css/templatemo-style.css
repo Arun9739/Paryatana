@@ -26,11 +26,14 @@ a:focus {
 body { overflow-x: hidden; }
 .tm-header {
 	background: #400361;
-	height: 80px;
-	position: relative;
-	z-index: 100;
+	height: 12vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-.tm-site-name-container { padding-top: 20px; }
+.tm-site-name-container {
+	padding: 16px;
+}
 .tm-site-name {
 	color: #FCDD44;
 	font-size: 27px;
@@ -41,7 +44,6 @@ body { overflow-x: hidden; }
 .tm-site-name:focus {
 	color: #FF720B;
 }
-.mobile-menu-icon { display: none; }
 .tm-nav {
 	display: block;
 	overflow: hidden;
@@ -802,10 +804,8 @@ hr { border-top: 1px solid #111010; }
 	    cursor: pointer;
 	    color: #FCDD44;
 	    font-size: 30px;
-	    position: fixed;
 	    top: 15px;
 	    right: 15px;
-	    background-color: rgba(15, 15, 15, 0.7);
 	    padding: 6px 15px;
 	    z-index: 1000;
 	}
@@ -900,4 +900,20 @@ hr { border-top: 1px solid #111010; }
 
 @media screen and (max-width: 400px) {
 	.tm-section-title {	font-size: 28px; }
+}
+
+@media screen and (min-width: 992px) {
+	.mobile-menu-icon {
+		display: none;
+	}
+
+	.tm-nav, .tm-nav ul, .tm-nav li, .tm-nav li a {
+		height: 12vh;
+		display: flex;
+		align-items: center;
+	}
+
+	.tm-nav li a {
+		padding: 0 34px;
+	}
 }
