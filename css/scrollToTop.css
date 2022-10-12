@@ -1,0 +1,53 @@
+/* Preloader */
+#preloader {
+	background: #400261 url('../img/preloader.gif') no-repeat center center;
+	background-size: 20%;
+	top: 0;
+	height: 100%;
+	width: 100vw;
+	position: fixed;
+	z-index: 1000;
+}
+
+.scroll-up-btn {
+	position: fixed;
+	height: 45px;
+	width: 40px;
+	background-color: #400361;
+	right: 30px;
+	bottom: 10px;
+	text-align: center;
+	line-height: 45px;
+	color: #fcdd44;
+	z-index: 10;
+	font-size: 32px;
+	border-radius: 6px;
+	border-bottom-width: 2px;
+	cursor: pointer;
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.3s ease;
+}
+
+.scroll-up-btn.show {
+	bottom: 30px;
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.scroll-up-btn:hover {
+	color: orangered;
+	transform: scale(1.1);
+}
+/* Reveal Animation */
+
+.reveal{
+    position: relative;
+    transform: translateY(10vh);
+    opacity: 0;
+    transition: all 0.4s ease ;
+}
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}

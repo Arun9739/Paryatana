@@ -9,19 +9,112 @@
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700' rel='stylesheet' type='text/css'>
   <link href="css/font-awesome.min.css" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">  
+  <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
   <link href="css/flexslider.css" rel="stylesheet">
   <link href="css/templatemo-style.css" rel="stylesheet">
+  <link href="css/scrollToTop.css" rel="stylesheet">
+
+  <!--Link to footer.css-->
+	<link href="css/footer.css" rel="stylesheet">
+
+	<link href = "css/logo.css" rel="stylesheet">
+
+	<!--  Fontawesome icons -->
+	<script src="https://kit.fontawesome.com/e9cf5a296c.js" crossorigin="anonymous"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <nk href="https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Cinzel:wght@400;500&family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rlink href="https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <liel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Cinzel:wght@400;500&family=EB+Garamond&family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Cinzel:wght@400;500&family=EB+Garamond&family=Lato&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Cinzel:wght@400;500&family=EB+Garamond&family=Lato&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+  <style>
+	#twt{
+	 color: #0fc9e7;
+
+	}
+	#fac{
+		color:#1e549f
+	}
+	#pin{
+		color:	#E60023;
+	}
+	#goog{
+        color: #4285F4;
+	}
+	#twtf:hover{
+	 color: #0fc9e7;
+
+	}
+	#facf:hover{
+		color:#1e549f
+	}
+	#pinf:hover{
+		color:	#E60023;
+	}
+	#googf:hover{
+        color: #4285F4;
+	}
+	#cardf:hover{
+		transform: scaleX(1.5) ;
+		transform: scaleY(1.2);
+	}
+
+	/* Adding Smooth animation to WHO WE ARE SECTION */
+	
+	#cardf{
+		transition: all .3s ease;
+	}
+
+	@media screen and (max-width: 400px) {
+
+		#cardf{
+			margin-top: 10px;
+			margin-bottom: 10px;
+
+		}
+	}
+
+
+  </style>
 
 
   </head>
   <body class="tm-gray-bg">
+
+	<div class="scroll-up-btn">
+        <i class="fa fa-angle-up"></i>
+    </div>
+
   	<!-- Header -->
   	<div class="tm-header">
   		<div class="container">
   			<div class="row">
   				<div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
-  					<a href="#" class="tm-site-name">Paryatana</a>	
+
+  					<a href="index.html" class="tm-site-name"><img src = "img/PARYATANA-new.png" width="250" height=auto style = "margin-top: -9.2rem;"></a>	
+
   				</div>
 	  			<div class="col-lg-6 col-md-8 col-sm-9">
 	  				<div class="mobile-menu-icon">
@@ -29,17 +122,17 @@
 		            </div>
 	  				<nav class="tm-nav">
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html" class="active">About</a></li>
-							<li><a href="tours.html">Our Tours</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a class="upper_links" href="index.html">Home</a></li>
+							<li><a id="one" href="about.html" class="active">About</a></li>
+							<li><a class="upper_links" href="tours.html">Our Tours</a></li>
+							<li><a class="upper_links" href="contact.html">Contact</a></li>
 						</ul>
-					</nav>		
-	  			</div>				
+					</nav>
+	  			</div>
   			</div>
-  		</div>	  	
+  		</div>
   	</div>
-	
+
 	<!-- Banner -->
 	<section class="tm-banner">
 		<!-- Flexslider -->
@@ -49,7 +142,9 @@
 			    <div class="tm-banner-inner">
 					<h1 class="tm-banner-title"><span class="tm-yellow-text">Tour</span> Packages</h1>
 					<p class="tm-banner-subtitle">For Your Vacations</p>
-					<a href="#more" class="tm-banner-link">Learn More</a>	
+
+					<a href="./tours.html#tours2" class="tm-banner-link">Learn More</a>	
+
 				</div>
 		      <img src="img/banner-3.jpg" />
 		    </li>
@@ -57,7 +152,9 @@
 			    <div class="tm-banner-inner">
 					<h1 class="tm-banner-title">Walk <span class="tm-yellow-text">through</span> dreams</h1>
 					<p class="tm-banner-subtitle">Wonderful Destinations</p>
-					<a href="#more" class="tm-banner-link">Learn More</a>	
+
+					<a href="./tours.html#special2" class="tm-banner-link">Learn More</a>	
+
 				</div>
 		      <img src="img/banner-2.jpg" />
 		    </li>
@@ -65,15 +162,17 @@
 			    <div class="tm-banner-inner">
 					<h1 class="tm-banner-title">Ride <span class="tm-yellow-text">your</span> journey</h1>
 					<p class="tm-banner-subtitle">Enjoy the nature</p>
-					<a href="#more" class="tm-banner-link">Learn More</a>	
+
+					<a href="./tours.html#tours2" class="tm-banner-link">Learn More</a>	
+
 				</div>
 		      <img src="img/banner-1.jpg" />
 		    </li>
 		  </ul>
-		</div>		
+		</div>
 	</section>
 
-	<!-- gray bg -->	
+	<!-- gray bg -->
 	<section class="container tm-home-section-1" id="more">
 		<div class="row">
 			<!-- slider -->
@@ -87,12 +186,12 @@
 			      	<p class="slider-description">Holiday is free Bootstrap v3.3.5 responsive template for tour and travel websites. You can download and use this layout for any purpose. You do not need to provide a credit link to us. If you have any question, feel free to contact us. <br><br>
                     Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum.</p>
 			      	<div class="slider-social">
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
+			      		<a href="#" class="tm-social-icon" id="twt"><i class="fa fa-twitter"></i></a>
+			      		<a href="#" class="tm-social-icon" id="fac"><i class="fa fa-facebook"></i></a>
+			      		<a href="#" class="tm-social-icon" id="pin"><i class="fa fa-pinterest"></i></a>
+			      		<a href="#" class="tm-social-icon" id="goog"><i class="fa fa-google-plus"></i></a>
 			      	</div>
-			      </div>			      
+			      </div>
 			    </li>
 			    <li>
 			      <img src="img/about-1.jpg" alt="image" />
@@ -102,12 +201,12 @@
 			      	<p class="slider-description">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<br><br>
                     Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris gestas quam, ut aliquam massa nisi.</p>
 			      	<div class="slider-social">
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
+			      		<a href="#" class="tm-social-icon"id="twt"><i class="fa fa-twitter"></i></a>
+			      		<a href="#" class="tm-social-icon"id="fac"><i class="fa fa-facebook"></i></a>
+			      		<a href="#" class="tm-social-icon"id="pin"><i class="fa fa-pinterest"></i></a>
+			      		<a href="#" class="tm-social-icon"id="goog"><i class="fa fa-google-plus"></i></a>
 			      	</div>
-			      </div>			      
+			      </div>
 			    </li>
 			    <li>
 			      <img src="img/about-1.jpg" alt="image" />
@@ -116,12 +215,12 @@
 			      	<h3 class="slider-subtitle">Gravida nibh vel velit auctor aliquet enean sollicitudin lorem quis auctor, nisi elit consequat ipsum</h3>
 			      	<p class="slider-description">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris gestas quam, ut aliquam massa nisi.</p>
 			      	<div class="slider-social">
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
+			      		<a href="#" class="tm-social-icon"id="twt"><i class="fa fa-twitter"></i></a>
+			      		<a href="#" class="tm-social-icon"id="fac"><i class="fa fa-facebook"></i></a>
+			      		<a href="#" class="tm-social-icon"id="pin"><i class="fa fa-pinterest"></i></a>
+			      		<a href="#" class="tm-social-icon"id="goog"><i class="fa fa-google-plus"></i></a>
 			      	</div>
-			      </div>			      
+			      </div>
 			    </li>
 			    <li>
 			      <img src="img/about-1.jpg" alt="image" />
@@ -130,91 +229,99 @@
 			      	<h3 class="slider-subtitle">Gravida nibh vel velit auctor aliquet enean sollicitudin lorem quis auctor, nisi elit consequat ipsum</h3>
 			      	<p class="slider-description">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris gestas quam, ut aliquam massa nisi.</p>
 			      	<div class="slider-social">
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
+			      		<a href="#" class="tm-social-icon"id="twt"><i class="fa fa-twitter"></i></a>
+			      		<a href="#" class="tm-social-icon"id="fac"><i class="fa fa-facebook"></i></a>
+			      		<a href="#" class="tm-social-icon"id="pin"><i class="fa fa-pinterest"></i></a>
+			      		<a href="#" class="tm-social-icon"id="goog"><i class="fa fa-google-plus"></i></a>
 			      	</div>
-			      </div>			      
+			      </div>
 			    </li>
 			  </ul>
 			</div>
 		</div>
 	
-		<div class="section-margin-top about-section">
+		<div class="section-margin-top about-section reveal">
 			<div class="row">				
 				<div class="tm-section-header">
 					<div class="col-lg-3 col-md-3 col-sm-3"><hr></div>
 					<div class="col-lg-6 col-md-6 col-sm-6"><h2 class="tm-section-title">Who We Are</h2></div>
-					<div class="col-lg-3 col-md-3 col-sm-3"><hr></div>	
+					<div class="col-lg-3 col-md-3 col-sm-3"><hr></div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="cardf"  style="box-shadow: rgb(0,146,202, 0.4) -5px 5px, rgb(0,146,202, 0.3) -10px 10px, rgb(0,146,202, 0.2) -15px 15px, rgb(0,146,202, 0.1) -20px 20px, rgb(0,146,202, 0.05) -25px 25px;">
 					<div class="tm-about-box-1">
 						<a href="#"><img src="img/about-4.jpg" alt="img" class="tm-about-box-1-img"></a>
 						<h3 class="tm-about-box-1-title">Arun <span>(Founder)</span></h3>
 						<p class="margin-bottom-15 gray-text">Proin gravida nibhvell aliquet. Aenean sollicitudin bibum auctor nisi elit.</p>
 						<div class="gray-text">
-							<a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
+
+							<a href="https://twitter.com/" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
+							<a href="https://www.facebook.com/" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
+							<a href="https://in.pinterest.com/" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
+							<a href="https://plus.google.com/" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
+
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="cardf"  style="box-shadow: rgb(0,146,202, 0.4) 0px 2px, rgb(0,146,202, 0.3) 0px 5px, rgb(0,146,202, 0.2) 0px 10px, rgb(0,146,202, 0.1) 0px 15px, rgb(0,146,202, 0.05) 0px 20px;">
 					<div class="tm-about-box-1">
 						<a href="#"><img src="img/about-5.jpg" alt="img" class="tm-about-box-1-img"></a>
 						<h3 class="tm-about-box-1-title">Ramesh <span>( Co-Founder )</span></h3>
 						<p class="margin-bottom-15 gray-text">Proin gravida nibhvell aliquet. Aenean sollicitudin bibum auctor nisi elit.</p>
 						<div class="gray-text">
-							<a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
+
+							<a href="https://twitter.com/" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
+							<a href="https://www.facebook.com/" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
+							<a href="https://in.pinterest.com/" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
+							<a href="https://plus.google.com/" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
+
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"id="cardf"  style="box-shadow: rgb(0,146,202, 0.4) 0px 2px, rgb(0,146,202, 0.3) 0px 5px, rgb(0,146,202, 0.2) 0px 10px, rgb(0,146,202, 0.1) 0px 15px, rgb(0,146,202, 0.05) 0px 20px;">
 					<div class="tm-about-box-1">
 						<a href="#"><img src="img/about-6.jpg" alt="img" class="tm-about-box-1-img"></a>
 						<h3 class="tm-about-box-1-title">Manoj <span>( General Manager )</span></h3>
 						<p class="margin-bottom-15 gray-text">Proin gravida nibhvell aliquet. Aenean sollicitudin bibum auctor nisi elit.</p>
 						<div class="gray-text">
-							<a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
+
+							<a href="https://twitter.com/" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
+							<a href="https://www.facebook.com/" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
+							<a href="https://in.pinterest.com/" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
+							<a href="https://plus.google.com/" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
+
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="cardf" style="box-shadow: rgb(0,146,202, 0.4) 5px 5px, rgb(0,146,202, 0.3) 10px 10px, rgb(0,146,202, 0.2) 15px 15px, rgb(0,146,202, 0.1) 20px 20px, rgb(0,146,202, 0.05) 25px 25px;">
 					<div class="tm-about-box-1">
 						<a href="#"><img src="img/about-7.jpg" alt="img" class="tm-about-box-1-img"></a>
 						<h3 class="tm-about-box-1-title">Smith <span>( Manager )</span></h3>
 						<p class="margin-bottom-15 gray-text">Proin gravida nibhvell aliquet. Aenean sollicitudin bibum auctor nisi elit.</p>
 						<div class="gray-text">
-							<a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
+
+							<a href="https://twitter.com/" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
+							<a href="https://www.facebook.com/" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
+							<a href="https://in.pinterest.com/" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
+							<a href="https://plus.google.com/" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
+
 						</div>
 					</div>
 				</div>
-			</div>		
+			</div>
 		</div>
-	</section>		
-	
+	</section>
+
 	<!-- white bg -->
-	<section class="tm-white-bg section-padding-bottom">
+	<section class="tm-white-bg section-padding-bottom reveal">
 		<div class="container">
 			<div class="row">
 				<div class="tm-section-header section-margin-top">
 					<div class="col-lg-4 col-md-3 col-sm-3"><hr></div>
 					<div class="col-lg-4 col-md-6 col-sm-6"><h2 class="tm-section-title">What we do</h2></div>
-					<div class="col-lg-4 col-md-3 col-sm-3"><hr></div>	
-				</div>				
+					<div class="col-lg-4 col-md-3 col-sm-3"><hr></div>
+				</div>
 			</div>
 			<div class="row">
 				<!-- Testimonial -->
@@ -225,49 +332,77 @@
 							<div class="tm-about-box-2-text">
 								<h3 class="tm-about-box-2-title">Rent bike for tourists on famous places</h3>
 				                <p class="tm-about-box-2-description gray-text">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis.</p>
-				                <p class="tm-about-box-2-footer">Mauris In Erat Justo</p>	
-							</div>		                
+				                <p class="tm-about-box-2-footer">Mauris In Erat Justo</p>
+							</div>
 						</div>
-						<div class="tm-about-box-2">
+						<div class="tm-about-box-2 reveal">
 							<img src="img/about-3.jpg" alt="image" class="tm-about-box-2-img">
 							<div class="tm-about-box-2-text">
 								<h3 class="tm-about-box-2-title">Booking a hotel on different places</h3>
 				                <p class="tm-about-box-2-description gray-text">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis.</p>
-				                <p class="tm-about-box-2-footer">Sednon Mauris Vitae</p>	
-							</div>		                
+				                <p class="tm-about-box-2-footer">Sednon Mauris Vitae</p>
+							</div>
 						</div>
 					</div>
-					<div class="tm-testimonials-box">
+					<div class="tm-testimonials-box reveal">
 						<h3 class="tm-testimonials-title">Testimonials</h3>
 						<div class="tm-testimonials-content">
-							<div class="tm-testimonial">
+							<div class="tm-testimonial"style="margin-top:-3px;">
 								<p>"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum."</p>
+
 		                		<strong class="text-uppercase">Akshath patel</strong>	
+								<hr style="width:140px;height:2px;background-color: black;">
+
 							</div>
-							<div class="tm-testimonial">
+							<div class="tm-testimonial" style="margin-top:-3px;">
 								<p>"Nisi elit consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit amet nibh."</p>
-			                	<strong class="text-uppercase">Dhiraj Alate</strong>		
+
+			                	<strong class="text-uppercase">Dhiraj Alate</strong>	
+								<hr style="width:140px;height:2px;background-color: black;">	
+
 							</div>
-	       					<div class="tm-testimonial">
+	       					<div class="tm-testimonial"style="margin-top:-3px;">
 	       						<p>"Rulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio."<p>
 	                			<strong class="text-uppercase">Chinmay Maldar</strong>
-	       					</div>                	
+
+	       					</div>
+
 						</div>
-					</div>	
-				</div>							
-			</div>			
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
-	<footer class="tm-black-bg">
-		<div class="container">
-			<div class="row">
-				<p class="tm-copyright-text">Copyright &copy; 2022 Paryatana
-                
-                | Designed by Arun Nayak</p>
-			</div>
-		</div>		
-	</footer>
+
+	
+<!-- footer -->
+<footer>
+        
+	<div class = "pages">
+		<a href = "index.html">Home</a>
+		<a href = "about.html">About</a>
+		<a href = "tours.html">Our Tours</a>
+		<a href = "contact.html">Contact</a>
+	</div>
+	<div class= "logo_bot">
+		<img src = "img/PARYATANA-new.png">
+		<p id = "customer">Customer satisfaction is our first priority</p><br>
+		<p style = "color: rgb(240, 235, 235);">Copyrights &copy 2022 Paryatana | Designed by <a  href = "https://www.linkedin.com/in/arun-g-nayak/" style = "text-decoration: none;">Arun G Nayak</a></p>
+	</div>
+	
+	<div class = "follow">
+		<h4>Follow Us</h4>
+			<a href = "https://www.linkedin.com/in/arun-g-nayak/" target="_blank" class="linkedin"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+			<a href = "#" target="_blank" class="instagram"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+			<a href = "https://twitter.com/home" target="_blank" class="twitter"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+	</div>
+</footer>
+  <!-- footer -->
+
+
+
 	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      		<!-- jQuery -->
+	<script type="text/javascript" src="js/scrollToTop.js"></script>					<!-- Scroll To Top -->
   	<script type="text/javascript" src="js/bootstrap.min.js"></script>					<!-- bootstrap js -->
   	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>			<!-- flexslider js -->
   	<script type="text/javascript" src="js/templatemo-script.js"></script>      		<!-- Templatemo Script -->
@@ -286,7 +421,7 @@
 			        return false;
 			      }
 			    }
-		  	});		  	
+		  	});
 		});
 		$(window).load(function(){
 			// Flexsliders
@@ -300,5 +435,7 @@
 		  	});
 		});
 	</script>
+	<script type="text/javascript" src="./js/onscrollReveal.js"></script>
+
  </body>
  </html>
