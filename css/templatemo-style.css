@@ -340,6 +340,7 @@ hr { border-top: 1px solid #111010; }
 }
 .tm-home-box-2-link:hover,
 .tm-home-box-2-link:focus {
+	font-weight: bold;
 	color: #FCDD44;
 }
 .border-left { border-left: 1px solid #DDD; }
