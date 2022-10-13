@@ -625,7 +625,12 @@ hr { border-top: 1px solid #111010; }
 	margin-bottom: 40px;
 	text-align: justify;
 }
-.slider-social { text-align: right; }
+.slider-social { 
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content:right;
+}
 
 /* Contact */
 .tm-contact-box-1 {
