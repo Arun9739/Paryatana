@@ -30,6 +30,7 @@ footer .pages a{
 }
 footer .pages a:hover{
     color: rgb(83, 81, 81);
+    transform: scale(1.3);
 }
 footer .logo_bot{
     text-align: center;
