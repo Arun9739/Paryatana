@@ -29,6 +29,7 @@ footer .pages a{
     margin: 0rem;
 }
 footer .pages a:hover{
+
     color: #FCDD44;
     transform: scale(1.3);
 }
