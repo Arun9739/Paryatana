@@ -101,6 +101,10 @@ footer .follow .twitter:hover{
     color: rgb(240, 235, 235);
 }
 
+footer .pages a:hover {
+    color: #FCDD44;
+}
+
 @media(max-width: 1122px){
     html{
         font-size: 65%;
