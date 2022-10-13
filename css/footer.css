@@ -30,6 +30,7 @@ footer .pages a{
 }
 footer .pages a:hover{
     color: rgb(83, 81, 81);
+    transform: scale(1.3);
 }
 footer .logo_bot{
     text-align: center;
@@ -126,6 +127,7 @@ footer .follow .twitter:hover{
         font-size: 45%;
     }
 }
+
 @media(max-width: 630px){
     footer .logo_bot img{
         width: 20rem;
@@ -138,3 +140,4 @@ footer .follow .twitter:hover{
         height: auto;
     }
 }
+
