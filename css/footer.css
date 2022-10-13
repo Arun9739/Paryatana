@@ -29,7 +29,8 @@ footer .pages a{
     margin: 0rem;
 }
 footer .pages a:hover{
-    color: rgb(83, 81, 81);
+
+    color: #FCDD44;
     transform: scale(1.3);
 }
 footer .logo_bot{
@@ -100,6 +101,10 @@ footer .follow .twitter:hover{
 #customer{
     font-size: 2.0rem;
     color: rgb(240, 235, 235);
+}
+
+footer .pages a:hover {
+    color: #FCDD44;
 }
 
 @media(max-width: 1122px){
