@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.User{
+    margin-left: 30px;
+    margin-top: -14px;
+}
+.Profile:hover{
+    border-bottom: 3px solid rgb(246, 210, 216);
+    border-top: 5px solid rgb(232, 208, 212);
+    border-left: 6px solid rgb(192, 237, 255);
+    border-right: 5px solid rgb(192, 237, 255);
+    box-shadow: 6px 5px 5px 4px lightblue;
+    cursor: pointer;
+}
+.history{
+    position: fixed;
+    margin-left: 400px;
+}
+.th{
+    margin-top: 60px;
+    margin-top: 20px;   
+}
+.Profile{
+position: fixed;
+height: 87vh;
+margin: 30px;
+width: 300px;
+border-radius: 5%;
+border-bottom: 2px solid rgb(246, 210, 216);
+border-top: 2px solid rgb(232, 208, 212);
+border-left: 2px solid rgb(192, 237, 255);
+border-right: 2px solid rgb(192, 237, 255);
+}
+.tour2{
+    position: relative;
+    margin-left: 400px;
+    margin-top: -247px;
+}
+.tour4{
+    position: relative;
+    margin-left: 400px;
+    margin-top: -247px;
+}
+.background{
+    overflow: hidden;
+    inset: 0;
+    height: 100vh;
+    width: 1150px;
+}
+.sec{
+    margin: 20px;
+}
+.user{
+  margin-left: 100px;
+  height: 50px;
+}
+.name{
+    margin: 20px;
+    margin-top: 50px;
+}
+.contact{
+    margin-left: 20px;
+}
+.fav{
+    margin: 20px;   
+}
+input[type=text]
+{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color:inherit ;
+}
+.iName{
+    margin-left: 20px;
+}
+.none{
+    color: grey;
+}
+.iConatct{
+    position: fixed;
+    margin-left: -60px;  
+}
+.pic{
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.goBack{
+    margin-left: 670px;
+    margin-top: 15px;
+    width: 70px;
+    height: 30px;
+    border-bottom: 4px solid rgb(31, 161, 248);
+    border-top: 2px solid rgb(232, 208, 212);
+    border-left: 5px solid rgb(159, 145, 247);
+    border-right: 3px solid rgb(192, 237, 255);
+    background-color:rgb(250, 239, 239);
+}
+.goBack:hover{
+    border-bottom: 6px solid rgb(31, 161, 248);
+    border-top: 1px solid rgb(232, 208, 212);
+    border-left: 2px solid rgb(159, 145, 247);
+    border-right: 6px solid rgb(192, 237, 255);
+    cursor: pointer;
+}
