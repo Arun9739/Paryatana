@@ -210,7 +210,13 @@ body { overflow-x: hidden; }
 	background-color: #7d2300;
 }
 .tm-form-inner { 
-	padding: 35px 30px 5px; 
+	padding: 35px 42px 0px 0px; 
+}
+.tm-form-inner .form-group{ 
+	padding-bottom: 5px; 
+}
+.tm-form-inner .tm-form-inner-btn{ 
+	margin-bottom: 0px; 
 }
 
 /*http://cssdeck.com/labs/different-css3-box-shadows-effects*/
