@@ -253,29 +253,254 @@
 				</div>
 			</div>
 
-			<div class="col-lg-4 col-md-4 col-sm-6">
-				<div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-center">
-					<img src="img/index-01.jpg" alt="image" class="img-responsive">
-					<a href="#">
-						<div class="tm-green-gradient-bg tm-city-price-container">
-							<span>Shimla</span>
-							<span>₹40000</span>
-						</div>	
-					</a>			
-				</div>				
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-6">
-				<div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-right">
-					<img src="img/index-02.jpg" alt="image" class="img-responsive">
-					<a href="#">
-						<div class="tm-red-gradient-bg tm-city-price-container">
-							<span>Kashmir</span>
-							<span>₹16000</span>
-						</div>	
-					</a>					
-				</div>				
-			</div>
-		</div>
+			<!--Destination-->>
+			<section>
+				
+				<div class="container">
+					<div class="item-container"  >
+						<div class="img-container">
+						    <img src="./img/index-03.jpg" alt="Event image">
+						</div>
+				
+						<div class="body-container">
+						    <div class="overlay"></div>
+				
+						    <div class="event-info" >
+							  <p class="title">Goa</p>
+							  <div class="separator"></div>
+							  <p class="info">8 Days</p>
+							  <p class="price">Rs 32000</p>
+				
+							  <div class="additional-info">
+								<p class="info">
+								    <i class="fas fa-map-marker-alt"></i>
+								    Goa beaach,Cruise Party etc
+								</p>
+								<p class="info">
+								    <i class="far fa-calendar-alt"></i>
+								    Wed, Aug 24, 10:00 AM IST
+								</p>
+				
+								<p class="info description">
+									Bookings Open! <span>more...</span>
+								</p>
+							  </div>
+						    </div>
+						    <button class="action">Book it</button>
+						</div>
+					  </div>
+	
+					<div class="item-container"  >
+					    <div class="img-container">
+						  <img src="./img/index-01.jpg" alt="Event image">
+					    </div>
+			    
+					    <div class="body-container">
+						  <div class="overlay"></div>
+			    
+						  <div class="event-info" >
+							<p class="title">Shimla</p>
+							<div class="separator"></div>
+							<p class="info">10 Days</p>
+							<p class="price">Rs 40000</p>
+			    
+							<div class="additional-info">
+							    <p class="info">
+								  <i class="fas fa-map-marker-alt"></i>
+								  PARYATANA
+							    </p>
+							    <p class="info">
+								  <i class="far fa-calendar-alt"></i>
+								  Wed, Aug 24, 10:00 AM IST
+							    </p>
+			    
+							    <p class="info description">
+								Bookings Open! <span>more...</span>
+							    </p>
+							</div>
+						  </div>
+						  <button class="action">Book it</button>
+					    </div>
+					</div>
+	
+					<div class="item-container"  >
+						<div class="img-container">
+						    <img src="./img/index-02.jpg" alt="Event image">
+						</div>
+				
+						<div class="body-container">
+						    <div class="overlay"></div>
+				
+						    <div class="event-info" >
+							  <p class="title">Kashmir</p>
+							  <div class="separator"></div>
+							  <p class="info">10 Days</p>
+							  <p class="price">Rs 16000</p>
+				
+							  <div class="additional-info">
+								<p class="info">
+								    <i class="fas fa-map-marker-alt"></i>
+								    PARYATANA
+								</p>
+								<p class="info">
+								    <i class="far fa-calendar-alt"></i>
+								    Wed, Aug 24, 10:00 AM IST
+								</p>
+				
+								<p class="info description">
+								    Bookings Open! <span>more...</span>
+								</p>
+							  </div>
+						    </div>
+						    <button class="action">Book it</button>
+						</div>
+					  </div>
+	
+	
+					
+				</div>
+				  <style>
+				
+	
+	
+	
+	.container {
+	    width: 100%;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    flex-wrap: wrap;
+	}
+	
+	.item-container {
+	    position: relative;
+	    margin: 24px;
+	    width: 320px;
+	    height: 570px;
+	    overflow: hidden;
+	    background-color: #fff;
+	    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.15);
+	    cursor: pointer;
+	    border-radius: 10%;
+	}
+	
+	.img-container,
+	.body-container {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+	
+	.img-container img {
+	    width: 100%;
+	}
+	
+	.body-container {
+	    position: relative;
+	}
+	
+	.overlay {
+	    position: relative;
+	    width: 100%;
+	    height: 400px;
+	    background-color: rgba(24, 83, 122, 0.6);
+	    opacity: 0;
+	    transition: height linear 0.4s, opacity linear 0.2s;
+	}
+	
+	.item-container:hover .overlay {
+	    opacity: 1;
+	    height: 150px;
+	}
+	
+	.event-info {
+	    background-color: #fff;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	    padding: 8px;
+	}
+	
+	.title,
+	.price {
+	    color: #18537a;
+	    font-size: 1.5em;
+	    font-weight: bold;
+	    letter-spacing: 1px;
+	    margin: 12px;
+	}
+	
+	.info {
+	    letter-spacing: 0.5px;
+	    margin-bottom: 6px;
+	}
+	
+	.separator {
+	    width: 20%;
+	    height: 6px;
+	    background-color: #17537a;
+	    margin-bottom: 16px;
+	}
+	
+	.additional-info {
+	    border-top: 1px solid #bbb;
+	    margin-top: 12px;
+	    padding: 28px;
+	    padding-bottom: 0;
+	}
+	
+	.additional-info .info {
+	    font-size: 0.9em;
+	    margin-bottom: 20px;
+	    text-align: center;
+	}
+	
+	.info i {
+	    color: #18537a;
+	    font-size: 1.1em;
+	    margin-right: 4px;
+	}
+	
+	.info span {
+	    color: #18537a;
+	    font-weight: bolder;
+	}
+	
+	.action {
+	    color: #fff;
+	    border: 3px solid #fff;
+	    background-color: transparent;
+	    position: absolute;
+	    top: -100px;
+	    left: 50%;
+	    transform: translateX(-50%);
+	    width: 60%;
+	    outline: none;
+	    cursor: pointer;
+	    padding: 12px;
+	    text-transform: uppercase;
+	    font-size: 1.3em;
+	    font-weight: bold;
+	    letter-spacing: 2px;
+	    transition: background-color 0.4s, top 0.4s;
+	}
+	
+	.item-container:hover .action {
+	    top: 50px;
+	}
+	
+	.action:hover {
+	    background-color: rgba(255, 255, 255, 0.2);
+	}	
+	
+	
+	
+				  </style>
+				 </section>
+
 
 		<div class="section-margin-top" id="visit">
 			<div class="row">
