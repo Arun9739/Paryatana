@@ -29,7 +29,8 @@ footer .pages a{
     margin: 0rem;
 }
 footer .pages a:hover{
-    color: rgb(83, 81, 81);
+
+    color: #FCDD44;
     transform: scale(1.3);
 }
 footer .logo_bot{
@@ -102,6 +103,10 @@ footer .follow .twitter:hover{
     color: rgb(240, 235, 235);
 }
 
+footer .pages a:hover {
+    color: #FCDD44;
+}
+
 @media(max-width: 1122px){
     html{
         font-size: 65%;
@@ -127,3 +132,17 @@ footer .follow .twitter:hover{
         font-size: 45%;
     }
 }
+
+@media(max-width: 630px){
+    footer .logo_bot img{
+        width: 20rem;
+        height: auto;
+    }
+}
+@media(max-width: 420px){
+    footer .logo_bot img{
+        width: 12rem;
+        height: auto;
+    }
+}
+
