@@ -78,14 +78,15 @@
         color: #4285F4;
 	}
 	#cardf:hover{
-		transform: scaleX(1.5) ;
-		transform: scaleY(1.2);
+		transform: scale(1.1);
+		box-shadow: 0 10px 60px 0 rgba(0,0,0,0.4);
 	}
 
 	/* Adding Smooth animation to WHO WE ARE SECTION */
 	
 	#cardf{
-		transition: all .3s ease;
+		transition: all .3s ease-in-out, box-shadow .6s;
+		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 4px 6px 0 rgba(0,0,0,0.1);
 	}
 
 	@media screen and (max-width: 400px) {
@@ -93,10 +94,14 @@
 		#cardf{
 			margin-top: 10px;
 			margin-bottom: 10px;
-
 		}
 	}
-
+	.d-flex{
+		display: flex;
+		gap: 30px;
+		margin: 0 auto;
+		justify-content: space-around;
+	}
 
   </style>
 
@@ -248,15 +253,15 @@
 		</div>
 	
 		<div class="section-margin-top about-section reveal">
-			<div class="row">				
+			<div class="row" style = "margin : 0 auto;">				
 				<div class="tm-section-header">
 					<div class="col-lg-3 col-md-3 col-sm-3"><hr></div>
 					<div class="col-lg-6 col-md-6 col-sm-6"><h2 class="tm-section-title">Who We Are</h2></div>
 					<div class="col-lg-3 col-md-3 col-sm-3"><hr></div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="cardf"  style="box-shadow: rgb(0,146,202, 0.4) -5px 5px, rgb(0,146,202, 0.3) -10px 10px, rgb(0,146,202, 0.2) -15px 15px, rgb(0,146,202, 0.1) -20px 20px, rgb(0,146,202, 0.05) -25px 25px;">
+			<div class="row d-flex">
+				<div class="f-item" id="cardf" >
 					<div class="tm-about-box-1">
 						<a href="#"><img src="img/about-4.jpg" alt="img" class="tm-about-box-1-img"></a>
 						<h3 class="tm-about-box-1-title">Arun <span>(Founder)</span></h3>
@@ -271,7 +276,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="cardf"  style="box-shadow: rgb(0,146,202, 0.4) 0px 2px, rgb(0,146,202, 0.3) 0px 5px, rgb(0,146,202, 0.2) 0px 10px, rgb(0,146,202, 0.1) 0px 15px, rgb(0,146,202, 0.05) 0px 20px;">
+				<div class="f-item" id="cardf" >
 					<div class="tm-about-box-1">
 						<a href="#"><img src="img/about-5.jpg" alt="img" class="tm-about-box-1-img"></a>
 						<h3 class="tm-about-box-1-title">Ramesh <span>( Co-Founder )</span></h3>
@@ -286,7 +291,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"id="cardf"  style="box-shadow: rgb(0,146,202, 0.4) 0px 2px, rgb(0,146,202, 0.3) 0px 5px, rgb(0,146,202, 0.2) 0px 10px, rgb(0,146,202, 0.1) 0px 15px, rgb(0,146,202, 0.05) 0px 20px;">
+				<div class="f-item" id="cardf" >
 					<div class="tm-about-box-1">
 						<a href="#"><img src="img/about-6.jpg" alt="img" class="tm-about-box-1-img"></a>
 						<h3 class="tm-about-box-1-title">Manoj <span>( General Manager )</span></h3>
@@ -301,7 +306,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="cardf" style="box-shadow: rgb(0,146,202, 0.4) 5px 5px, rgb(0,146,202, 0.3) 10px 10px, rgb(0,146,202, 0.2) 15px 15px, rgb(0,146,202, 0.1) 20px 20px, rgb(0,146,202, 0.05) 25px 25px;">
+				<div class="f-item" id="cardf" >
 					<div class="tm-about-box-1">
 						<a href="#"><img src="img/about-7.jpg" alt="img" class="tm-about-box-1-img"></a>
 						<h3 class="tm-about-box-1-title">Smith <span>( Manager )</span></h3>
