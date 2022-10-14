@@ -8,6 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Paryatana</title>
+  	<link rel="icon" type="image/x-icon" href="./favicon/favicon.ico">
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700' rel='stylesheet'
 		type='text/css'>
@@ -150,7 +151,7 @@
 						<div role="tabpanel" class="tab-pane fade in active tm-white-bg" id="hotel">
 							<div class="tm-search-box effect2">
 								
-								<form action="#" method="post" class="hotel-search-form">
+								<form action="#" method="post" class="hotel-search-form" name="form-hotel-booking" onsubmit="return checkDateHotelBooking()">
 									<div class="tm-form-inner">
 										<div class="form-group">
 											<select class="form-control">
@@ -167,7 +168,7 @@
 										</div>
 										<div class="form-group">
 											<div class='input-group date' id='datetimepicker1'>
-												<input type='text' class="form-control" placeholder="Check-in Date" />
+												<input type='text' class="form-control" name="checkin-date" placeholder="Check-in Date" />
 												<span class="input-group-addon">
 													<span class="fa fa-calendar"></span>
 												</span>
@@ -175,7 +176,7 @@
 										</div>
 										<div class="form-group">
 											<div class='input-group date' id='datetimepicker2'>
-												<input type='text' class="form-control" placeholder="Check-out Date" />
+												<input type='text' class="form-control" name="checkout-date" placeholder="Check-out Date" />
 												<span class="input-group-addon">
 													<span class="fa fa-calendar"></span>
 												</span>
@@ -192,7 +193,7 @@
 											</select>
 										</div>
 									</div>
-									<div class="form-group tm-yellow-gradient-bg text-center">
+									<div class="tm-yellow-gradient-bg text-center">
 										<button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
 									</div>
 								</form>
@@ -200,7 +201,7 @@
 						</div>
 						<div role="tabpanel" class="tab-pane fade tm-white-bg" id="car">
 							<div class="tm-search-box effect2">
-								<form action="#" method="post" class="hotel-search-form">
+								<form action="#" method="post" class="hotel-search-form" name="form-car-rental" onsubmit="return checkDate()">
 									<div class="tm-form-inner">
 										<div class="form-group">
 											<select class="form-control">
@@ -218,7 +219,7 @@
 										</div>
 										<div class="form-group">
 											<div class='input-group date-time' id='datetimepicker3'>
-												<input type='text' class="form-control" placeholder="Pickup Date" />
+												<input type='text' class="form-control" placeholder="Pickup Date" name="pickup-date"/>
 												<span class="input-group-addon">
 													<span class="fa fa-calendar"></span>
 												</span>
@@ -226,7 +227,7 @@
 										</div>
 										<div class="form-group">
 											<div class='input-group date-time' id='datetimepicker4'>
-												<input type='text' class="form-control" placeholder="Return Date" />
+												<input type='text' class="form-control" placeholder="Return Date" name="return-date" />
 												<span class="input-group-addon">
 													<span class="fa fa-calendar"></span>
 												</span>
@@ -241,7 +242,7 @@
 											</select>
 										</div>
 									</div>
-									<div class="form-group tm-yellow-gradient-bg text-center">
+									<div class=" tm-yellow-gradient-bg text-center">
 										<button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
 									</div>
 								</form>
@@ -484,6 +485,7 @@
   	<script type="text/javascript" src="js/moment.js"></script>							<!-- moment.js -->
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>					<!-- bootstrap js -->
 	<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>	<!-- bootstrap date time picker js, http://eonasdan.github.io/bootstrap-datetimepicker/ -->
+	<script type="text/javascript" src="js/date-check.js"></script>					<!-- bootstrap js -->
 
 	
 

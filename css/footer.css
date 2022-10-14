@@ -130,4 +130,19 @@ footer .follow .twitter:hover {
   html {
     font-size: 45%;
   }
+
 }
+
+@media(max-width: 630px){
+    footer .logo_bot img{
+        width: 20rem;
+        height: auto;
+    }
+}
+@media(max-width: 420px){
+    footer .logo_bot img{
+        width: 12rem;
+        height: auto;
+    }
+}
+

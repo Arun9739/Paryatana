@@ -11,6 +11,21 @@ body{
     transition: 1s ease;
 }
 .tm-header .container .row img:hover{
-    transform: scale(1.2);
+    transform: scale(1.17);
     text-shadow: 3px 3px 8px #FF720B;
+}
+
+@media(max-width: 991px){
+    .tm-header .container .row img{
+        margin-left: -2.1rem;
+        margin-bottom: -10rem;
+        height: 200px;
+        width: auto;
+    }
+}
+
+@media(max-width: 767px){
+    .tm-header .container .row img{
+        margin-left: -1rem;
+    }
 }
