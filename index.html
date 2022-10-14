@@ -151,7 +151,7 @@
 						<div role="tabpanel" class="tab-pane fade in active tm-white-bg" id="hotel">
 							<div class="tm-search-box effect2">
 								
-								<form action="#" method="post" class="hotel-search-form" name="form-hotel-booking" onsubmit="return checkDateHotelBooking()">
+									<form action="#" method="post" class="hotel-search-form">
 									<div class="tm-form-inner">
 										<div class="form-group">
 											<select class="form-control">
@@ -168,7 +168,7 @@
 										</div>
 										<div class="form-group">
 											<div class='input-group date' id='datetimepicker1'>
-												<input type='text' class="form-control" name="checkin-date" placeholder="Check-in Date" />
+												<input type='text' class="form-control" placeholder="Check-in Date" />
 												<span class="input-group-addon">
 													<span class="fa fa-calendar"></span>
 												</span>
@@ -176,7 +176,7 @@
 										</div>
 										<div class="form-group">
 											<div class='input-group date' id='datetimepicker2'>
-												<input type='text' class="form-control" name="checkout-date" placeholder="Check-out Date" />
+												<input type='text' class="form-control" placeholder="Check-out Date" />
 												<span class="input-group-addon">
 													<span class="fa fa-calendar"></span>
 												</span>
@@ -192,9 +192,9 @@
 												<option value="5p">5+</option>
 											</select>
 										</div>
-									</div>
-									<div class="tm-yellow-gradient-bg text-center">
-										<button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
+										<div class="form-group tm-yellow-gradient-bg tm-form-inner-btn">
+											<button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
+										</div>
 									</div>
 								</form>
 							</div>
