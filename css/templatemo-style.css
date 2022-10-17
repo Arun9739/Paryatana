@@ -156,7 +156,7 @@ body { overflow-x: hidden; }
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5d11d+0,f3d10e+1,efcf1c+2,fccd0d+4,f7ca0d+5,f9cb1e+6,f7cb10+7,f8cc14+8,f0c40c+54,edc50c+55,e9c108+71,ecc008+78,e6be06+91,e9bd06+93,e8bc06+100 */
 	background: #f5d11d; /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
 	background: linear-gradient(to bottom,  #f5d11d 0%,#f3d10e 1%,#efcf1c 2%,#fccd0d 4%,#f7ca0d 5%,#f9cb1e 6%,#f7cb10 7%,#f8cc14 8%,#f0c40c 54%,#edc50c 55%,#e9c108 71%,#ecc008 78%,#e6be06 91%,#e9bd06 93%,#e8bc06 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5d11d', endColorstr='#e8bc06',GradientType=0 ); /* IE6-9 */
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.496); 
 	
 }
 .tm-green-gradient-bg {
