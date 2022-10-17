@@ -155,12 +155,9 @@ body { overflow-x: hidden; }
 .tm-yellow-gradient-bg {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5d11d+0,f3d10e+1,efcf1c+2,fccd0d+4,f7ca0d+5,f9cb1e+6,f7cb10+7,f8cc14+8,f0c40c+54,edc50c+55,e9c108+71,ecc008+78,e6be06+91,e9bd06+93,e8bc06+100 */
 	background: #f5d11d; /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
-	background: linear-gradient(to bottom,  #f5d11d 0%,#f3d10e 1%,#efcf1c 2%,#fccd0d 4%,#f7ca0d 5%,#f9cb1e 6%,#f7cb10 7%,#f8cc14 8%,#f0c40c 54%,#edc50c 55%,#e9c108 71%,#ecc008 78%,#e6be06 91%,#e9bd06 93%,#e8bc06 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5d11d', endColorstr='#e8bc06',GradientType=0 );
 	
-}
-.tm-yellow-gradient-bg :hover{
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.496); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5d11d', endColorstr='#e8bc06',GradientType=0 ); /* IE6-9 */
+	
 }
 .tm-green-gradient-bg {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ec66b+0,2dc970+1,2ac96c+2,2bc76e+4,2bc869+5,2ac871+6,29c86c+7,28c76b+15,2bc76c+16,21bb61+73,1eb860+100 */
@@ -198,20 +195,21 @@ body { overflow-x: hidden; }
 .tm-yellow-btn {
 	width: 130px;
 	height: 40px;
-	background-color: #e24b00;
+	background-color: #e8601c;
 	border: medium none;
 	color: #ffffff;
 	font-size: 12px;
 	margin: 24px auto;
 	transition: all 0.5s;
 	text-transform: uppercase;
-	box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 	border-radius: 30px;
 }
-.tm-yellow-btn:hover,
-.tm-yellow-btn:focus {
-	background-color: #7d2300;
+.tm-yellow-btn:hover{ 
+	box-shadow:5px 5px 15px rgba(0, 0, 0, 0.495),inset 2px 2px 10px rgba(189, 189, 189, 0.495);
+	transform:scale(1.1)
 }
+
 .tm-form-inner { 
 	padding: 35px 30px 5px; 
 }
@@ -1021,9 +1019,7 @@ hr { border-top: 1px solid #111010; }
 .tm-banner-link:hover{
 	transform: scale(1.07);
 }
-.tm-yellow-btn:hover{
-	box-shadow:1px 1px 12px 9px rgb(116, 116, 20); 
-}
+
 .bottom:hover{
 	color: purple;
 }
