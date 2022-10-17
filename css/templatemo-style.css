@@ -378,8 +378,9 @@ hr { border-top: 1px solid #111010; }
 }
 
 .tm-home-box-3 {
-	margin-bottom: 50px;
-	max-width: 555px;
+	margin-bottom: 35px;
+	margin-right: 10px;
+	max-width: auto;
 	overflow: hidden;
 	transition: all 0.3s ease-in-out;
 }
@@ -387,22 +388,28 @@ hr { border-top: 1px solid #111010; }
 	scale: 1.1;
 	cursor:pointer;
 }
-.tm-home-box-3-img-container { float: left; }
+.tm-home-box-3-img-container { 
+	float: left; 
+}
 .tm-home-box-3-info {
     height: 225px;
-    max-width: 305px;
+    max-width: 295px;
     float: right;
     border: 1px solid #CCC;
 	border-left: none;
 }
+ develop
 .tm-home-box-3-description { padding: 40px 30px 44px; }
 .section-padding-bottom { padding-bottom: 60px; margin-top: 0px;}
+.tm-home-box-3-description { padding: 35px 25px 44px; }
+.section-padding-bottom { padding-bottom: 60px; }
 
 /* Tours */
 .tm-tours-box-1 {
 	width: 100%;
 	max-width: 532px;
 	margin-bottom: 50px;
+	/* height: 10px;  */
 	transition: all 0.3s ease-in-out;
 }
 .tm-tours-box-1:hover {
@@ -551,7 +558,7 @@ hr { border-top: 1px solid #111010; }
 	font-weight: 300;
 }
 .tm-testimonials-content {
-	padding: 30px;
+	padding: 8px 10px;
 	text-align: center;
 	font-style: italic;
 }
