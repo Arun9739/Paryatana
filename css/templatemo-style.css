@@ -392,6 +392,7 @@ hr { border-top: 1px solid #111010; }
 	width: 100%;
 	max-width: 532px;
 	margin-bottom: 50px;
+	/* height: 10px;  */
 	transition: all 0.3s ease-in-out;
 }
 .tm-tours-box-1:hover {
