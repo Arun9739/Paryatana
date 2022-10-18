@@ -1,0 +1,124 @@
+.arz-home {
+    height: 150vh;
+    position: absolute;
+    top: 80px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 150px;
+    background: #D7C8DF;
+  }
+  .arz-home-parallax {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .arz-home-parallax-img1 {
+    left: 200px;
+    width: 60%;
+    height: 40%;
+    background-image: url("/img/white1.png");
+    z-index: var(--z-normal);
+  }
+  .arz-home-parallax-img3 {
+    width: 40%;
+    height: 30%;
+    background-image: url("/img/white2.png");
+    z-index: var(--z-fixed);
+  }
+  .arz-home-parallax-img6 {
+    top: -50px;
+    left: 950px;
+    width: 40%;
+    height: 30%;
+    background-image: url("/img/white2.png");
+    z-index: var(--z-fixed);
+  }
+  .arz-home-parallax-img5 {
+    top: 550px;
+    left: -100px;
+    width: 60%;
+    height: 50%;
+    background-image: url("/img/2.png");
+    z-index: 8;
+  }
+  .arz-home-parallax-img6 {
+    top: 480px;
+    left: 550px;
+    width: 60%;
+    height: 50%;
+    background-image: url("/img/2.png");
+    z-index: 7;
+  }
+  .arz-home-parallax-img7 {
+    top: 150px;
+    left: 0px;
+    width: 50%;
+    height: 50%;
+    background-image: url("/img/3.png");
+    z-index: 6;
+  }
+  .arz-home-parallax-img4 {
+    top: -50px;
+    left: 500px;
+    width: 80%;
+    height: 80%;
+    background-image: url("/img/1.png");
+    z-index: 6;
+  }
+  .arz-home-parallax-img2 {
+    top: 280px;
+    left: 380px;
+    width: 100%;
+    height: 100%;
+    background-image: url("/img/6.png");
+    z-index: 8;
+  }
+  .arz-home-parallax-img8 {
+    top: 450px;
+    left: -200px;
+    width: 70%;
+    height: 70%;
+    z-index: 8;
+    background-image: url("/img/7.png");
+  }
+  .arz-home-parallax-img9 {
+    top: 250px;
+    left: -200px;
+    width: 80%;
+    height: 70%;
+    z-index: 6;
+    background-image: url("/img/7.png");
+  }
+  .arz-home-title, .arz-home-subtitle {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white-color);
+  }
+  .arz-home-title {
+    top: 32%;
+    font-size: 100px;
+    font-weight: bold;
+    color: #BE79c4;
+  }
+  .arz-home-subtitle {
+    color: #400361;
+    top: 44%;
+    font-weight: bold;
+    font-size: 100px;
+    z-index: var(--z-tooltip);
+  }
+  .arz-home-scroll {
+    position: absolute;
+    bottom: 2.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    z-index: var(--z-modal);
+  }
