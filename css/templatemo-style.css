@@ -399,8 +399,9 @@ hr { border-top: 1px solid #111010; }
     border: 1px solid #CCC;
 	border-left: none;
 }
-.tm-home-box-3-description { padding: 40px 30px 44px; }
-.section-padding-bottom { padding-bottom: 60px; margin-top: 0px;}
+
+.tm-home-box-3-description { padding: 35px 25px 44px; }
+.section-padding-bottom { padding-bottom: 60px; }
 
 
 /* Tours */
