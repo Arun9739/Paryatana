@@ -1,557 +1,724 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paryatana</title>
 
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+    <link href="css/flexslider.css" rel="stylesheet" />
+    <link href="css/templatemo-style.css" rel="stylesheet" />
+    <link href="css/scrollToTop.css" rel="stylesheet" />
+    <!--Link to footer.css-->
+    <link href="css/footer.css" rel="stylesheet" />
+    <!-- <link href="css/Homenavbar.css" rel="stylesheet"> -->
 
+    <!--  Fontawesome icons -->
+    <script
+      src="https://kit.fontawesome.com/e9cf5a296c.js"
+      crossorigin="anonymous"
+    ></script>
 
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Paryatana</title>
+    <link href="css/logo.css" rel="stylesheet" />
 
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700' rel='stylesheet'
-		type='text/css'>
-	<link href="css/font-awesome.min.css" rel="stylesheet">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
-	<link href="css/flexslider.css" rel="stylesheet">
-	<link href="css/templatemo-style.css" rel="stylesheet">
-	<link href="css/scrollToTop.css" rel="stylesheet">
-	<!--Link to footer.css-->
-	<link href="css/footer.css" rel="stylesheet">
-	<!-- <link href="css/Homenavbar.css" rel="stylesheet"> -->
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Cinzel:wght@400;500&family=EB+Garamond&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rlink
+      href="https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Cinzel:wght@400;500&family=EB+Garamond&family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Cinzel:wght@400;500&family=EB+Garamond&family=Lato&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Cinzel:wght@400;500&family=EB+Garamond&family=Lato&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
-	<!--  Fontawesome icons -->
-	<script src="https://kit.fontawesome.com/e9cf5a296c.js" crossorigin="anonymous"></script>
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-	<link href="css/logo.css" rel="stylesheet">
+  <body class="tm-gray-bg">
+    <div id="preloader"></div>
+    <!-- Scroll to Top Button -->
+    <div class="scroll-up-btn">
+      <i class="fa fa-angle-up"></i>
+    </div>
 
-	<!-- Fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<nk href="https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Cinzel:wght@400;500&family=EB+Garamond&display=swap"
-		rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rlink href="https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<liel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-			<link
-				href="https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Cinzel:wght@400;500&family=EB+Garamond&family=Lato&display=swap"
-				rel="stylesheet">
-			<link
-				href="https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Cinzel:wght@400;500&family=EB+Garamond&family=Lato&family=Roboto:wght@100&display=swap"
-				rel="stylesheet">
-			<link rel="preconnect" href="https://fonts.googleapis.com">
-			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-			<link
-				href="https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Cinzel:wght@400;500&family=EB+Garamond&family=Lato&family=Roboto:wght@300&display=swap"
-				rel="stylesheet">
+    <!-- Header -->
+    <div class="tm-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
+            <a href="index.html" class="tm-site-name"
+              ><img
+                src="img/PARYATANA-new.png"
+                width="250"
+                height="auto"
+                style="margin-top: -9.2rem"
+            /></a>
+          </div>
+          <div class="col-lg-6 col-md-8 col-sm-9">
+            <div class="mobile-menu-icon">
+              <div class="mobile-menu-icon-wrap">
+                <span class="stick stick-1"></span>
+                <span class="stick stick-2"></span>
+                <span class="stick stick-3"></span>
+                <span class="stick stick-4"></span>
+              </div>
+            </div>
+            <nav class="tm-nav">
+              <ul>
+                <li><a id="one" href="index.html" class="active">Home</a></li>
+                <li><a class="upper_links" href="about.html">About</a></li>
+                <li><a class="upper_links" href="tours.html">Our Tours</a></li>
+                <li><a class="upper_links" href="contact.html">Contact</a></li>
+                <li>
+                  <a href="favourites.html" class="active"
+                    ><i class="fa fa-heart"></i
+                  ></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- Banner -->
+    <section class="tm-banner">
+      <!-- Flexslider -->
+      <div class="flexslider flexslider-banner">
+        <ul class="slides">
+          <li>
+            <div class="tm-banner-inner">
+              <h1 class="tm-banner-title">
+                Find <span class="tm-yellow-text">The Best</span> Place
+              </h1>
+              <p class="tm-banner-subtitle">For Your Holidays</p>
+              <a href="#visit" class="tm-banner-link">Learn More</a>
+            </div>
+            <img src="img/banner-1.jpg" alt="Image" />
+          </li>
+          <li>
+            <div class="tm-banner-inner">
+              <h1 class="tm-banner-title">
+                Walk <span class="tm-yellow-text"> through </span> dream
+              </h1>
+              <p class="tm-banner-subtitle">Wonderful Destinations</p>
 
-			<!-- Favicons -->
-			<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
-			<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-			<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-			<link rel="manifest" href="./favicon/site.webmanifest">
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-				integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-				crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+              <a href="#popular" class="tm-banner-link">Learn More</a>
+            </div>
+            <img src="img/banner-2.jpg" alt="Image" />
+          </li>
+          <li>
+            <div class="tm-banner-inner">
+              <h1 class="tm-banner-title">
+                Ride <span class="tm-yellow-text"> your </span> journey
+              </h1>
+              <p class="tm-banner-subtitle">Enjoy the nature</p>
 
-<body class="tm-gray-bg">
-	<div id="preloader"></div>
-	<!-- Scroll to Top Button -->
-	<div class="scroll-up-btn">
-		<i class="fa fa-angle-up"></i>
-	</div>
+              <a href="#visit" class="tm-banner-link">Learn More</a>
+            </div>
+            <img src="img/banner-3.jpg" alt="Image" />
+          </li>
+        </ul>
+      </div>
+    </section>
 
-	<!-- Header -->
-	<div class="tm-header">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
-					<a href="index.html" class="tm-site-name"><img src="img/PARYATANA-new.png" width="250" height=auto
-							style="margin-top: -9.2rem;"></a>
-				</div>
-				<div class="col-lg-6 col-md-8 col-sm-9">
-					<div class="mobile-menu-icon">
-						<div class="mobile-menu-icon-wrap">
-							<span class="stick stick-1"></span>
-							<span class="stick stick-2"></span>
-							<span class="stick stick-3"></span>
-							<span class="stick stick-4"></span>
-						</div>
-					</div>
-					<nav class="tm-nav">
-						<ul>
-							<li><a id="one" href="index.html" class="active">Home</a></li>
-							<li><a class="upper_links" href="about.html">About</a></li>
-							<li><a class="upper_links" href="tours.html">Our Tours</a></li>
-							<li><a class="upper_links" href="contact.html">Contact</a></li>
-							<li><a href="favourites.html" class="active"><i class="fa fa-heart "></i></a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</div>
-	</div>
+    <!-- gray bg -->
+    <section class="container tm-home-section-1" id="more">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6">
+          <!-- Nav tabs -->
+          <div class="tm-home-box-1">
+            <ul
+              class="nav nav-tabs tm-white-bg"
+              role="tablist"
+              id="hotelCarTabs"
+            >
+              <li role="presentation" class="active">
+                <a
+                  href="#hotel"
+                  aria-controls="hotel"
+                  role="tab"
+                  data-toggle="tab"
+                  >Hotel</a
+                >
+              </li>
+              <li role="presentation">
+                <a href="#car" aria-controls="car" role="tab" data-toggle="tab"
+                  >Car Rental</a
+                >
+              </li>
+            </ul>
 
-	<!-- Banner -->
-	<section class="tm-banner">
-		<!-- Flexslider -->
-		<div class="flexslider flexslider-banner">
-			<ul class="slides">
-				<li>
-					<div class="tm-banner-inner">
-						<h1 class="tm-banner-title">Find <span class="tm-yellow-text">The Best</span> Place</h1>
-						<p class="tm-banner-subtitle">For Your Holidays</p>
-						<a href="#visit" class="tm-banner-link">Learn More</a>
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div
+                role="tabpanel"
+                class="tab-pane fade in active tm-white-bg"
+                id="hotel"
+              >
+                <div class="tm-search-box effect2">
+                  <form action="#" method="post" class="hotel-search-form">
+                    <div class="tm-form-inner">
+                      <div class="form-group">
+                        <select class="form-control">
+                          <option value="">-- Select Hotel --</option>
+                          <option value="shangrila">The blue</option>
+                          <option value="chatrium">Kailash</option>
+                          <option value="fourseasons">Four Seasons</option>
+                          <option value="hilton">Our house</option>
+                          <option value="hilton">Hotel Taj</option>
+                          <option value="hilton">Leela</option>
+                          <option value="hilton">Radison</option>
+                          <option value="hilton">Hyatt</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group date" id="datetimepicker1">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Check-in Date"
+                          />
+                          <span class="input-group-addon">
+                            <span class="fa fa-calendar"></span>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group date" id="datetimepicker2">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Check-out Date"
+                          />
+                          <span class="input-group-addon">
+                            <span class="fa fa-calendar"></span>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="form-group margin-bottom-0">
+                        <select class="form-control">
+                          <option value="">-- Guests --</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5p">5+</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="tm-yellow-gradient-bg text-center">
+                      <button type="submit" name="submit" class="tm-yellow-btn">
+                        Check Now
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane fade tm-white-bg" id="car">
+                <div class="tm-search-box effect2">
+                  <form action="#" method="post" class="hotel-search-form">
+                    <div class="tm-form-inner">
+                      <div class="form-group">
+                        <select class="form-control">
+                          <option value="">-- Select Model --</option>
+                          <option value="shangrila">BMW</option>
+                          <option value="chatrium">Mercedes-Benz</option>
+                          <option value="fourseasons">Toyota</option>
+                          <option value="hilton">Honda</option>
+                          <option value="hilton">Ford titanium</option>
+                          <option value="hilton">XUV 700</option>
+                          <option value="hilton">KIA</option>
+                          <option value="hilton">Swift dzire</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group date-time" id="datetimepicker3">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Pickup Date"
+                          />
+                          <span class="input-group-addon">
+                            <span class="fa fa-calendar"></span>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group date-time" id="datetimepicker4">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Return Date"
+                          />
+                          <span class="input-group-addon">
+                            <span class="fa fa-calendar"></span>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <select class="form-control">
+                          <option value="">-- Options --</option>
+                          <option value="">Child Seat</option>
+                          <option value="">GPS Navigator</option>
+                          <option value="">Insurance</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="tm-yellow-gradient-bg text-center">
+                      <button type="submit" name="submit" class="tm-yellow-btn">
+                        Check Now
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-					</div>
-					<img src="img/banner-1.jpg" alt="Image" />
-				</li>
-				<li>
-					<div class="tm-banner-inner">
-						<h1 class="tm-banner-title">Walk <span class="tm-yellow-text"> through </span> dream</h1>
-						<p class="tm-banner-subtitle">Wonderful Destinations</p>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+          <div
+            class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-center effect2"
+          >
+            <img src="img/index-01.jpg" alt="image" class="img-responsive" />
+            <a href="#">
+              <div class="tm-green-gradient-bg tm-city-price-container">
+                <span>Shimla</span>
+                <span>₹40000</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+          <div
+            class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-right effect2"
+          >
+            <img src="img/index-02.jpg" alt="image" class="img-responsive" />
+            <a href="#">
+              <div class="tm-red-gradient-bg tm-city-price-container">
+                <span>Kashmir</span>
+                <span>₹16000</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
 
-						<a href="#popular" class="tm-banner-link">Learn More</a>
+      <div class="section-margin-top" id="visit">
+        <div class="row">
+          <div class="tm-section-header">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <hr />
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <h2 class="tm-section-title">Places you must visit</h2>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <hr />
+            </div>
+          </div>
+        </div>
+        <div class="row reveal">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+            <div class="tm-home-box-2">
+              <img src="img/index-03.jpg" alt="image" class="img-responsive" />
+              <h3>Goa beach</h3>
+              <p class="tm-date">28 March 2022</p>
+              <div class="tm-home-box-2-container">
+                <a href="#" class="tm-home-box-2-link"
+                  ><i class="fa fa-heart tm-home-box-2-icon border-right"></i
+                ></a>
+                <a href="#" class="tm-home-box-2-link"
+                  ><span class="tm-home-box-2-description">Travel</span></a
+                >
+                <a href="#" class="tm-home-box-2-link"
+                  ><i class="fa fa-edit tm-home-box-2-icon border-left"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+            <div class="tm-home-box-2">
+              <img src="img/index-04.jpg" alt="image" class="img-responsive" />
+              <h3>Rajasthan desert</h3>
+              <p class="tm-date">26 March 2022</p>
+              <div class="tm-home-box-2-container">
+                <a href="#" class="tm-home-box-2-link"
+                  ><i class="fa fa-heart tm-home-box-2-icon border-right"></i
+                ></a>
+                <a href="#" class="tm-home-box-2-link"
+                  ><span class="tm-home-box-2-description">Travel</span></a
+                >
+                <a href="#" class="tm-home-box-2-link"
+                  ><i class="fa fa-edit tm-home-box-2-icon border-left"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+            <div class="tm-home-box-2">
+              <img src="img/index-05.jpg" alt="image" class="img-responsive" />
+              <h3>Konkan railway journey</h3>
+              <p class="tm-date">24 March 2016</p>
+              <div class="tm-home-box-2-container">
+                <a href="#" class="tm-home-box-2-link"
+                  ><i class="fa fa-heart tm-home-box-2-icon border-right"></i
+                ></a>
+                <a href="#" class="tm-home-box-2-link"
+                  ><span class="tm-home-box-2-description">Travel</span></a
+                >
+                <a href="#" class="tm-home-box-2-link"
+                  ><i class="fa fa-edit tm-home-box-2-icon border-left"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+            <div class="tm-home-box-2 tm-home-box-2-right">
+              <img src="img/index-06.jpg" alt="image" class="img-responsive" />
+              <h3>Assam jungles</h3>
+              <p class="tm-date">22 March 2016</p>
+              <div class="tm-home-box-2-container">
+                <a href="#" class="tm-home-box-2-link"
+                  ><i class="fa fa-heart tm-home-box-2-icon border-right"></i
+                ></a>
+                <a href="#" class="tm-home-box-2-link"
+                  ><span class="tm-home-box-2-description">Travel</span></a
+                >
+                <a href="#" class="tm-home-box-2-link"
+                  ><i class="fa fa-edit tm-home-box-2-icon border-left"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="home-description">
+              Paryatana is the travelling website which will guide you through
+              out your travelling journey
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-					</div>
-					<img src="img/banner-2.jpg" alt="Image" />
-				</li>
-				<li>
-					<div class="tm-banner-inner">
-						<h1 class="tm-banner-title">Ride <span class="tm-yellow-text"> your </span> journey</h1>
-						<p class="tm-banner-subtitle"> Enjoy the nature</p>
+    <!-- white bg -->
+    <section class="tm-white-bg section-padding-bottom">
+      <div class="container reveal">
+        <div class="row">
+          <div class="tm-section-header section-margin-top" id="popular">
+            <div class="col-lg-4 col-md-3 col-sm-3">
+              <hr />
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <h2 class="tm-section-title">Popular Packages</h2>
+            </div>
+            <div class="col-lg-4 col-md-3 col-sm-3">
+              <hr />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="tm-home-box-3">
+              <div class="tm-home-box-3-img-container">
+                <img
+                  src="img/index-07.jpg"
+                  alt="image"
+                  class="img-responsive"
+                />
+              </div>
+              <div class="tm-home-box-3-info">
+                <p class="tm-home-box-3-description">
+                  <b>Kanyakumari :</b> From scenic beaches to alluring temples,
+                  Kanyakumari includes some of the best sceneries you will ever
+                  witness.
+                </p>
+                <div class="tm-home-box-2-container">
+                  <a href="#" class="tm-home-box-2-link"
+                    ><i class="fa fa-heart tm-home-box-2-icon border-right"></i
+                  ></a>
+                  <a href="#" class="tm-home-box-2-link"
+                    ><span class="tm-home-box-2-description box-3"
+                      >Travel</span
+                    ></a
+                  >
+                  <a href="#" class="tm-home-box-2-link"
+                    ><i class="fa fa-edit tm-home-box-2-icon border-left"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="tm-home-box-3 reveal">
+              <div class="tm-home-box-3-img-container">
+                <img
+                  src="img/index-08.jpg"
+                  alt="image"
+                  class="img-responsive"
+                />
+              </div>
+              <div class="tm-home-box-3-info">
+                <p class="tm-home-box-3-description">
+                  <b>Varanasi : </b> A vacation to this spiritual land is one of
+                  those few experiences of a lifetime that one can’t afford to
+                  miss out.
+                </p>
+                <div class="tm-home-box-2-container">
+                  <a href="#" class="tm-home-box-2-link"
+                    ><i class="fa fa-heart tm-home-box-2-icon border-right"></i
+                  ></a>
+                  <a href="#" class="tm-home-box-2-link"
+                    ><span class="tm-home-box-2-description box-3"
+                      >Travel</span
+                    ></a
+                  >
+                  <a href="#" class="tm-home-box-2-link"
+                    ><i class="fa fa-edit tm-home-box-2-icon border-left"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="tm-home-box-3 reveal">
+              <div class="tm-home-box-3-img-container">
+                <img
+                  src="img/index-09.jpg"
+                  alt="image"
+                  class="img-responsive"
+                />
+              </div>
+              <div class="tm-home-box-3-info">
+                <p class="tm-home-box-3-description">
+                  <b>Kashmir :</b> Enclosed by the Himalayas,surrounded by lush
+                  valleys, this is a holiday destination to fall in love with.
+                </p>
+                <div class="tm-home-box-2-container">
+                  <a href="#" class="tm-home-box-2-link"
+                    ><i class="fa fa-heart tm-home-box-2-icon border-right"></i
+                  ></a>
+                  <a href="#" class="tm-home-box-2-link"
+                    ><span class="tm-home-box-2-description box-3"
+                      >Travel</span
+                    ></a
+                  >
+                  <a href="#" class="tm-home-box-2-link"
+                    ><i class="fa fa-edit tm-home-box-2-icon border-left"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="tm-home-box-3 reveal">
+              <div class="tm-home-box-3-img-container">
+                <img
+                  src="img/index-10.jpg"
+                  alt="image"
+                  class="img-responsive"
+                />
+              </div>
+              <div class="tm-home-box-3-info">
+                <p class="tm-home-box-3-description">
+                  <b>Kedarnath :</b> This place is a lush green region with
+                  meandering rivers, snow-clad peaks and offers complete
+                  serenity.
+                </p>
+                <div class="tm-home-box-2-container">
+                  <a href="#" class="tm-home-box-2-link"
+                    ><i class="fa fa-heart tm-home-box-2-icon border-right"></i
+                  ></a>
+                  <a href="#" class="tm-home-box-2-link"
+                    ><span class="tm-home-box-2-description box-3"
+                      >Travel</span
+                    ></a
+                  >
+                  <a href="#" class="tm-home-box-2-link"
+                    ><i class="fa fa-edit tm-home-box-2-icon border-left"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-						<a href="#visit" class="tm-banner-link">Learn More</a>
-					</div>
-					<img src="img/banner-3.jpg" alt="Image" />
-				</li>
-			</ul>
-		</div>
-	</section>
+    <!-- footer -->
+    <footer>
+      <div class="pages">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="tours.html">Our Tours</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="logo_bot">
+        <img src="img/PARYATANA-new.png" />
+        <p id="customer">Customer satisfaction is our first priority</p>
+        <br />
+        <p style="color: rgb(240, 235, 235)">
+          Copyrights &copy 2022 Paryatana | Designed by
+          <a
+            href="https://www.linkedin.com/in/arun-g-nayak/"
+            style="text-decoration: none"
+            >Arun G Nayak</a
+          >
+        </p>
+        <p class="github">
+          Contribute to us on
+          <a href="https://github.com/Arun9739/Paryatana"> Github </a>
+        </p>
+      </div>
 
-	<!-- gray bg -->
-	<section class="container tm-home-section-1" id="more">
-		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-6">
-				<!-- Nav tabs -->
-				<div class="tm-home-box-1">
-					<ul class="nav nav-tabs tm-white-bg" role="tablist" id="hotelCarTabs">
-						<li role="presentation" class="active">
-							<a href="#hotel" aria-controls="hotel" role="tab" data-toggle="tab">Hotel</a>
-						</li>
-						<li role="presentation">
-							<a href="#car" aria-controls="car" role="tab" data-toggle="tab">Car Rental</a>
-						</li>
-					</ul>
+      <div class="follow">
+        <h4>Follow Us</h4>
+        <a
+          href="https://www.linkedin.com/in/arun-g-nayak/"
+          target="_blank"
+          class="linkedin"
+          ><i class="fa-brands fa-linkedin fa-2xl"></i
+        ></a>
+        <a href="#" target="_blank" class="instagram"
+          ><i class="fa-brands fa-instagram fa-2xl"></i
+        ></a>
+        <a href="https://twitter.com/home" target="_blank" class="twitter"
+          ><i class="fa-brands fa-twitter fa-2xl"></i
+        ></a>
+        <a href="https://github.com/Arun9739/Paryatana">
+          <i class="fa-brands fa-2x fa-github"></i>
+        </a>
+      </div>
+    </footer>
+    <!-- footer -->
 
-					<!-- Tab panes -->
-					<div class="tab-content">
-						<div role="tabpanel" class="tab-pane fade in active tm-white-bg" id="hotel">
-							<div class="tm-search-box effect2">
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/scrollToTop.js"></script>
+    <!-- Scroll To Top -->
+    <script type="text/javascript" src="js/moment.js"></script>
+    <!-- moment.js -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- bootstrap js -->
+    <script
+      type="text/javascript"
+      src="js/bootstrap-datetimepicker.min.js"
+    ></script>
+    <!-- bootstrap date time picker js, http://eonasdan.github.io/bootstrap-datetimepicker/ -->
 
-								<form action="#" method="post" class="hotel-search-form">
-									<div class="tm-form-inner">
-										<div class="form-group">
-											<select class="form-control">
-												<option value="">-- Select Hotel -- </option>
-												<option value="shangrila">The blue</option>
-												<option value="chatrium">Kailash</option>
-												<option value="fourseasons">Four Seasons</option>
-												<option value="hilton">Our house</option>
-												<option value="hilton">Hotel Taj</option>
-												<option value="hilton">Leela</option>
-												<option value="hilton">Radison</option>
-												<option value="hilton">Hyatt</option>
-											</select>
-										</div>
-										<div class="form-group">
-											<div class='input-group date' id='datetimepicker1'>
-												<input type='text' class="form-control" placeholder="Check-in Date" />
-												<span class="input-group-addon">
-													<span class="fa fa-calendar"></span>
-												</span>
-											</div>
-										</div>
-										<div class="form-group">
-											<div class='input-group date' id='datetimepicker2'>
-												<input type='text' class="form-control" placeholder="Check-out Date" />
-												<span class="input-group-addon">
-													<span class="fa fa-calendar"></span>
-												</span>
-											</div>
-										</div>
-										<div class="form-group margin-bottom-0">
-											<select class="form-control">
-												<option value="">-- Guests -- </option>
-												<option value="1">1</option>
-												<option value="2">2</option>
-												<option value="3">3</option>
-												<option value="4">4</option>
-												<option value="5p">5+</option>
-											</select>
-										</div>
-									</div>
-									<div class="tm-yellow-gradient-bg text-center">
-										<button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
-									</div>
-								</form>
-							</div>
-						</div>
-						<div role="tabpanel" class="tab-pane fade tm-white-bg" id="car">
-							<div class="tm-search-box effect2">
-								<form action="#" method="post" class="hotel-search-form">
-									<div class="tm-form-inner">
-										<div class="form-group">
-											<select class="form-control">
-												<option value="">-- Select Model -- </option>
-												<option value="shangrila">BMW</option>
-												<option value="chatrium">Mercedes-Benz</option>
-												<option value="fourseasons">Toyota</option>
-												<option value="hilton">Honda</option>
-												<option value="hilton">Ford titanium</option>
-												<option value="hilton">XUV 700</option>
-												<option value="hilton">KIA</option>
-												<option value="hilton">Swift dzire</option>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
 
-											</select>
-										</div>
-										<div class="form-group">
-											<div class='input-group date-time' id='datetimepicker3'>
-												<input type='text' class="form-control" placeholder="Pickup Date" />
-												<span class="input-group-addon">
-													<span class="fa fa-calendar"></span>
-												</span>
-											</div>
-										</div>
-										<div class="form-group">
-											<div class='input-group date-time' id='datetimepicker4'>
-												<input type='text' class="form-control" placeholder="Return Date" />
-												<span class="input-group-addon">
-													<span class="fa fa-calendar"></span>
-												</span>
-											</div>
-										</div>
-										<div class="form-group">
-											<select class="form-control">
-												<option value="">-- Options -- </option>
-												<option value="">Child Seat</option>
-												<option value="">GPS Navigator</option>
-												<option value="">Insurance</option>
-											</select>
-										</div>
-									</div>
-									<div class=" tm-yellow-gradient-bg text-center">
-										<button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+    <script type="text/javascript" src="js/templatemo-script.js"></script>
+    <!-- Templatemo Script -->
+    <script>
+      // HTML document is loaded. DOM is ready.
+      $(function () {
+        $("#hotelCarTabs a").click(function (e) {
+          e.preventDefault();
+          $(this).tab("show");
+        });
 
-			<div class="col-lg-4 col-md-4 col-sm-6">
-				<div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-center effect2">
-					<img src="img/index-01.jpg" alt="image" class="img-responsive">
-					<a href="#">
-						<div class="tm-green-gradient-bg tm-city-price-container">
-							<span>Shimla</span>
-							<span>₹40000</span>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-6">
-				<div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-right effect2">
-					<img src="img/index-02.jpg" alt="image" class="img-responsive">
-					<a href="#">
-						<div class="tm-red-gradient-bg tm-city-price-container">
-							<span>Kashmir</span>
-							<span>₹16000</span>
-						</div>
-					</a>
-				</div>
-			</div>
-		</div>
+        $(".date").datetimepicker({
+          format: "MM/DD/YYYY",
+        });
+        $(".date-time").datetimepicker();
 
-		<div class="section-margin-top" id="visit">
-			<div class="row">
-				<div class="tm-section-header">
-					<div class="col-lg-3 col-md-3 col-sm-3">
-						<hr>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-6">
-						<h2 class="tm-section-title">Places you must visit</h2>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-3">
-						<hr>
-					</div>
-				</div>
-			</div>
-			<div class="row reveal">
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
-					<div class="tm-home-box-2">
-						<img src="img/index-03.jpg" alt="image" class="img-responsive">
-						<h3>Goa beach</h3>
-						<p class="tm-date">28 March 2022</p>
-						<div class="tm-home-box-2-container">
-							<a href="#" class="tm-home-box-2-link"><i
-									class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
-							<a href="#" class="tm-home-box-2-link"><span
-									class="tm-home-box-2-description">Travel</span></a>
-							<a href="#" class="tm-home-box-2-link"><i
-									class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
-					<div class="tm-home-box-2">
-						<img src="img/index-04.jpg" alt="image" class="img-responsive">
-						<h3>Rajasthan desert</h3>
-						<p class="tm-date">26 March 2022</p>
-						<div class="tm-home-box-2-container">
-							<a href="#" class="tm-home-box-2-link"><i
-									class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
-							<a href="#" class="tm-home-box-2-link"><span
-									class="tm-home-box-2-description">Travel</span></a>
-							<a href="#" class="tm-home-box-2-link"><i
-									class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
-					<div class="tm-home-box-2">
-						<img src="img/index-05.jpg" alt="image" class="img-responsive">
-						<h3>Konkan railway journey</h3>
-						<p class="tm-date">24 March 2016</p>
-						<div class="tm-home-box-2-container">
-							<a href="#" class="tm-home-box-2-link"><i
-									class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
-							<a href="#" class="tm-home-box-2-link"><span
-									class="tm-home-box-2-description">Travel</span></a>
-							<a href="#" class="tm-home-box-2-link"><i
-									class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
-					<div class="tm-home-box-2 tm-home-box-2-right">
-						<img src="img/index-06.jpg" alt="image" class="img-responsive">
-						<h3>Assam jungles</h3>
-						<p class="tm-date">22 March 2016</p>
-						<div class="tm-home-box-2-container">
-							<a href="#" class="tm-home-box-2-link"><i
-									class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
-							<a href="#" class="tm-home-box-2-link"><span
-									class="tm-home-box-2-description">Travel</span></a>
-							<a href="#" class="tm-home-box-2-link"><i
-									class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-12">
-					<p class="home-description">Paryatana is the travelling website which will guide you through out
-						your travelling journey </p>
-				</div>
-			</div>
-		</div>
-	</section>
+        // https://css-tricks.com/snippets/jquery/smooth-scrolling/
+        $("a[href*=#]:not([href=#])").click(function () {
+          if (
+            location.pathname.replace(/^\//, "") ==
+              this.pathname.replace(/^\//, "") &&
+            location.hostname == this.hostname
+          ) {
+            var target = $(this.hash);
+            target = target.length
+              ? target
+              : $("[name=" + this.hash.slice(1) + "]");
+            if (target.length) {
+              $("html,body").animate(
+                {
+                  scrollTop: target.offset().top,
+                },
+                1000
+              );
+              return false;
+            }
+          }
+        });
+      });
 
-	<!-- white bg -->
-	<section class="tm-white-bg section-padding-bottom">
-		<div class="container reveal">
-			<div class="row">
-				<div class="tm-section-header section-margin-top" id="popular">
-					<div class="col-lg-4 col-md-3 col-sm-3">
-						<hr>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<h2 class="tm-section-title">Popular Packages</h2>
-					</div>
-					<div class="col-lg-4 col-md-3 col-sm-3">
-						<hr>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="tm-home-box-3">
-						<div class="tm-home-box-3-img-container">
-							<img src="img/index-07.jpg" alt="image" class="img-responsive">
-						</div>
-						<div class="tm-home-box-3-info">
-							<p class="tm-home-box-3-description"><b>Kanyakumari :</b> From scenic beaches
-								to alluring temples, Kanyakumari includes some of the best sceneries you will ever
-								witness.</p>
-							<div class="tm-home-box-2-container">
-								<a href="#" class="tm-home-box-2-link"><i
-										class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
-								<a href="#" class="tm-home-box-2-link"><span
-										class="tm-home-box-2-description box-3">Travel</span></a>
-								<a href="#" class="tm-home-box-2-link"><i
-										class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="tm-home-box-3 reveal">
-						<div class="tm-home-box-3-img-container">
-							<img src="img/index-08.jpg" alt="image" class="img-responsive">
-						</div>
-						<div class="tm-home-box-3-info">
-							<p class="tm-home-box-3-description"><b>Varanasi : </b> A vacation to this spiritual land is
-								one of
-								those few experiences of a lifetime that one can’t afford to miss out.</p>
-							<div class="tm-home-box-2-container">
-								<a href="#" class="tm-home-box-2-link"><i
-										class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
-								<a href="#" class="tm-home-box-2-link"><span
-										class="tm-home-box-2-description box-3">Travel</span></a>
-								<a href="#" class="tm-home-box-2-link"><i
-										class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="tm-home-box-3 reveal">
-						<div class="tm-home-box-3-img-container">
-							<img src="img/index-09.jpg" alt="image" class="img-responsive">
-						</div>
-						<div class="tm-home-box-3-info">
-							<p class="tm-home-box-3-description"><b>Kashmir :</b> Enclosed by the Himalayas,surrounded
-								by lush valleys, this is a holiday destination to fall in love with.</p>
-							<div class="tm-home-box-2-container">
-								<a href="#" class="tm-home-box-2-link"><i
-										class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
-								<a href="#" class="tm-home-box-2-link"><span
-										class="tm-home-box-2-description box-3">Travel</span></a>
-								<a href="#" class="tm-home-box-2-link"><i
-										class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="tm-home-box-3 reveal">
-						<div class="tm-home-box-3-img-container">
-							<img src="img/index-10.jpg" alt="image" class="img-responsive">
-						</div>
-						<div class="tm-home-box-3-info">
-							<p class="tm-home-box-3-description"><b>Kedarnath :</b> This place is a lush
-								green region with meandering rivers, snow-clad peaks and offers complete serenity.</p>
-							<div class="tm-home-box-2-container">
-								<a href="#" class="tm-home-box-2-link"><i
-										class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
-								<a href="#" class="tm-home-box-2-link"><span
-										class="tm-home-box-2-description box-3">Travel</span></a>
-								<a href="#" class="tm-home-box-2-link"><i
-										class="fa fa-edit tm-home-box-2-icon border-left"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+      // Load Flexslider when everything is loaded.
+      $(window).load(function () {
+        //	For images only
+        $(".flexslider").flexslider({
+          controlNav: false,
+        });
+      });
+    </script>
+    <!-- Preloader Script -->
+    <script type="text/javascript">
+      document.addEventListener("load", preLoader());
 
-
-	<!-- footer -->
-	<footer>
-
-		<div class="pages">
-			<a href="index.html">Home</a>
-			<a href="about.html">About</a>
-			<a href="tours.html">Our Tours</a>
-			<a href="contact.html">Contact</a>
-		</div>
-		<div class="logo_bot">
-			<img src="img/PARYATANA-new.png">
-			<p id="customer">Customer satisfaction is our first priority</p><br>
-			<p style="color: rgb(240, 235, 235);">Copyrights &copy 2022 Paryatana | Designed by <a
-					href="https://www.linkedin.com/in/arun-g-nayak/" style="text-decoration: none;">Arun G Nayak</a></p>
-		</div>
-
-		<div class="follow">
-			<h4>Follow Us</h4>
-			<a href="https://www.linkedin.com/in/arun-g-nayak/" target="_blank" class="linkedin"><i
-					class="fa-brands fa-linkedin fa-2xl"></i></a>
-			<a href="#" target="_blank" class="instagram"><i class="fa-brands fa-instagram fa-2xl"></i></a>
-			<a href="https://twitter.com/home" target="_blank" class="twitter"><i
-					class="fa-brands fa-twitter fa-2xl"></i></a>
-		</div>
-	</footer>
-	<!-- footer -->
-
-	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script> <!-- jQuery -->
-	<script type="text/javascript" src="js/scrollToTop.js"></script> <!-- Scroll To Top -->
-	<script type="text/javascript" src="js/moment.js"></script> <!-- moment.js -->
-	<script type="text/javascript" src="js/bootstrap.min.js"></script> <!-- bootstrap js -->
-	<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
-	<!-- bootstrap date time picker js, http://eonasdan.github.io/bootstrap-datetimepicker/ -->
-
-
-
-	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
-
-	<script type="text/javascript" src="js/templatemo-script.js"></script> <!-- Templatemo Script -->
-	<script>
-		// HTML document is loaded. DOM is ready.
-		$(function () {
-
-			$('#hotelCarTabs a').click(function (e) {
-				e.preventDefault()
-				$(this).tab('show')
-			})
-
-			$('.date').datetimepicker({
-				format: 'MM/DD/YYYY'
-			});
-			$('.date-time').datetimepicker();
-
-			// https://css-tricks.com/snippets/jquery/smooth-scrolling/
-			$('a[href*=#]:not([href=#])').click(function () {
-				if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location
-					.hostname == this.hostname) {
-					var target = $(this.hash);
-					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-					if (target.length) {
-						$('html,body').animate({
-							scrollTop: target.offset().top
-						}, 1000);
-						return false;
-					}
-				}
-			});
-		});
-
-		// Load Flexslider when everything is loaded.
-		$(window).load(function () {
-
-			//	For images only
-			$('.flexslider').flexslider({
-				controlNav: false
-			});
-
-
-		});
-	</script>
-	<!-- Preloader Script -->
-	<script type="text/javascript">
-		document.addEventListener('load', preLoader())
-
-		function preLoader() {
-			$("#preloader").delay(1000).fadeOut(1000);
-			$('body').removeClass('loading');
-		}
-	</script>
-	<script type="text/javascript" src="./js/onscrollReveal.js"></script>
-</body>
-
+      function preLoader() {
+        $("#preloader").delay(1000).fadeOut(1000);
+        $("body").removeClass("loading");
+      }
+    </script>
+    <script type="text/javascript" src="./js/onscrollReveal.js"></script>
+  </body>
 </html>

@@ -9,11 +9,12 @@ body {
 footer {
   display: flex;
   background-color: #400361;
-  padding-bottom: 2.8rem;
+  padding-bottom: 4.8rem;
 }
 
 footer .pages {
   display: grid;
+  gap: 6rem;
   width: 30%;
   text-align: center;
   margin-top: 6rem;
@@ -35,6 +36,11 @@ footer .logo_bot {
   text-align: center;
   width: 40%;
   margin: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(-2rem);
+  justify-content: center;
 }
 footer .logo_bot img {
   padding-bottom: 0rem;
@@ -101,6 +107,16 @@ footer .follow .instagram:hover {
 footer .follow .twitter:hover {
   color: #00acee;
 }
+
+footer .github{
+  color: rgb(240, 235, 235);
+  margin-top: 2rem;
+}
+
+footer .github > a{
+  color: white;
+}
+
 #customer {
   font-size: 2rem;
   color: rgb(240, 235, 235);
