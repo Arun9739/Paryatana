@@ -93,13 +93,13 @@ footer .follow a:hover {
   transition: 0.5s;
 }
 footer .follow .linkedin:hover {
-  color: #0077b5;
+  color: #38E54D;
 }
 footer .follow .instagram:hover {
-  color: #bc2a8d;
+  color: #FCE700;
 }
 footer .follow .twitter:hover {
-  color: #00acee;
+  color: #F637EC;
 }
 #customer {
   font-size: 2rem;
