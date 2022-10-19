@@ -49,13 +49,28 @@ footer .logo_bot {
   margin: 0rem;
 }
 footer .logo_bot img {
-  padding-bottom: 0rem;
   margin-right: 6%;
   width: 30rem;
   height: auto;
-  padding-bottom: -5rem;
-  margin-bottom: -7.5rem;
 }
+.logo_bot h3{
+  padding-bottom: 20px;
+  color: white;
+}
+.newsletter{
+  margin-bottom: 90px;
+}
+.newsletter input{
+  padding: 10px;
+  width: 20vw;
+}
+.newsletter button{
+  padding: 12px;
+  background-color: rgb(156, 52, 52);
+  color: white;
+  border: none;
+}
+
 footer .doc {
   display: grid;
   width: 30%;
