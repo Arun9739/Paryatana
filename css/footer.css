@@ -43,13 +43,33 @@ footer .logo_bot {
   justify-content: center;
 }
 footer .logo_bot img {
-  padding-bottom: 0rem;
   margin-right: 6%;
   width: 30rem;
   height: auto;
-  padding-bottom: -5rem;
-  margin-bottom: -7.5rem;
 }
+.logo_bot h3{
+  padding-bottom: 20px;
+  color: white;
+  transform: translateY(-6rem);
+}
+.newsletter{
+  transform: translateY(-6rem);
+}
+.newsletter input{
+  padding: 10px;
+  width: 20vw;
+}
+.newsletter button{
+  padding: 12px;
+  background-color: rgb(156, 52, 52);
+  color: white;
+  border: none;
+}
+
+.copyright{
+  transform: translateY(-1.5rem);
+}
+
 footer .doc {
   display: grid;
   width: 30%;
@@ -111,6 +131,7 @@ footer .follow .twitter:hover {
 footer .github{
   color: rgb(240, 235, 235);
   margin-top: 2rem;
+  transform: translateY(-1.5rem);
 }
 
 footer .github > a{
@@ -120,6 +141,7 @@ footer .github > a{
 #customer {
   font-size: 2rem;
   color: rgb(240, 235, 235);
+  transform: translateY(-1.5rem);
 }
 
 @media (max-width: 1122px) {
