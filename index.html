@@ -19,6 +19,9 @@
     <link href="css/scrollToTop.css" rel="stylesheet" />
     <!--Link to footer.css-->
     <link href="css/footer.css" rel="stylesheet" />
+
+    <link href="css/parallax-only.css" rel="stylesheet" />
+
     <!-- <link href="css/Homenavbar.css" rel="stylesheet"> -->
 
     <!--  Fontawesome icons -->
@@ -135,46 +138,47 @@
       </div>
     </div>
 
-    <!-- Banner -->
-    <section class="tm-banner">
-      <!-- Flexslider -->
-      <div class="flexslider flexslider-banner">
-        <ul class="slides">
-          <li>
-            <div class="tm-banner-inner">
-              <h1 class="tm-banner-title">
-                Find <span class="tm-yellow-text">The Best</span> Place
-              </h1>
-              <p class="tm-banner-subtitle">For Your Holidays</p>
-              <a href="#visit" class="tm-banner-link">Learn More</a>
-            </div>
-            <img src="img/banner-1.jpg" alt="Image" />
-          </li>
-          <li>
-            <div class="tm-banner-inner">
-              <h1 class="tm-banner-title">
-                Walk <span class="tm-yellow-text"> through </span> dream
-              </h1>
-              <p class="tm-banner-subtitle">Wonderful Destinations</p>
+    <div class="arz-home">
+      <div
+        class="parallax arz-home-parallax arz-home-parallax-img1"
+        data-rellax-speed="-3"
+      ></div>
+      <div
+        class="parallax arz-home-parallax arz-home-parallax-img2"
+        data-rellax-speed="0"
+      ></div>
+      <div
+        class="parallax arz-home-parallax arz-home-parallax-img3"
+        data-rellax-speed="-5"
+      ></div>
+      <div
+        class="parallax arz-home-parallax arz-home-parallax-img5"
+        data-rellax-speed="-4"
+      ></div>
+      <div
+        class="parallax arz-home-parallax arz-home-parallax-img6"
+        data-rellax-speed="-4"
+      ></div>
+      <div
+        class="parallax arz-home-parallax arz-home-parallax-img7"
+        data-rellax-speed="-5"
+      ></div>
+      <div
+        class="parallax arz-home-parallax arz-home-parallax-img4"
+        data-rellax-speed="-3"
+      ></div>
+      <div
+        class="parallax arz-home-parallax arz-home-parallax-img8"
+        data-rellax-speed="-2"
+      ></div>
+      <div
+        class="parallax arz-home-parallax arz-home-parallax-img9"
+        data-rellax-speed="-2"
+      ></div>
 
-              <a href="#popular" class="tm-banner-link">Learn More</a>
-            </div>
-            <img src="img/banner-2.jpg" alt="Image" />
-          </li>
-          <li>
-            <div class="tm-banner-inner">
-              <h1 class="tm-banner-title">
-                Ride <span class="tm-yellow-text"> your </span> journey
-              </h1>
-              <p class="tm-banner-subtitle">Enjoy the nature</p>
-
-              <a href="#visit" class="tm-banner-link">Learn More</a>
-            </div>
-            <img src="img/banner-3.jpg" alt="Image" />
-          </li>
-        </ul>
-      </div>
-    </section>
+      <h1 class="arz-home-title">YOUR GO TO</h1>
+      <span class="arz-home-subtitle">TRAVEL PARTNER</span>
+    </div>
 
     <!-- gray bg -->
     <section class="container tm-home-section-1" id="more">
@@ -335,7 +339,15 @@
           <div
             class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-center effect2"
           >
-            <img src="img/index-01.jpg" alt="image" class="img-responsive" />
+            <img
+              src="img/index-01.jpg"
+              alt="image"
+              class="arz-img-responsive"
+            />
+            <div class="arz-overlay">
+              <div class="arz-title">Explore</div>
+              <p class="arz-titleAdd">The beauty of Shimla</p>
+            </div>
             <a href="#">
               <div class="tm-green-gradient-bg tm-city-price-container">
                 <span>Shimla</span>
@@ -348,7 +360,15 @@
           <div
             class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-right effect2"
           >
-            <img src="img/index-02.jpg" alt="image" class="img-responsive" />
+            <img
+              src="img/index-02.jpg"
+              alt="image"
+              class="arz-img-responsive"
+            />
+            <div class="arz-overlay">
+              <div class="arz-title">Explore</div>
+              <p class="arz-titleAdd">The beauty of Kashmir</p>
+            </div>
             <a href="#">
               <div class="tm-red-gradient-bg tm-city-price-container">
                 <span>Kashmir</span>
@@ -447,14 +467,52 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <p class="home-description">
-              Paryatana is the travelling website which will guide you through
-              out your travelling journey
-            </p>
-          </div>
-        </div>
+        <!-- <div class="row">
+				<div class="col-lg-12">
+					<p class="home-description">Paryatana is the travelling website which will guide you through out
+						your travelling journey </p>
+				</div>
+			</div> -->
+      </div>
+    </section>
+    <!-- Banner -->
+    <section class="tm-banner">
+      <!-- Flexslider -->
+      <div class="flexslider flexslider-banner">
+        <ul class="slides">
+          <li>
+            <div class="tm-banner-inner">
+              <h1 class="tm-banner-title">
+                Find <span class="tm-yellow-text">The Best</span> Place
+              </h1>
+              <p class="tm-banner-subtitle">For Your Holidays</p>
+              <a href="#visit" class="tm-banner-link">Learn More</a>
+            </div>
+            <img src="img/banner-1.jpg" alt="Image" />
+          </li>
+          <li>
+            <div class="tm-banner-inner">
+              <h1 class="tm-banner-title">
+                Walk Through Your <span class="tm-yellow-text">Dream</span>
+              </h1>
+              <p class="tm-banner-subtitle">Wonderful Destinations</p>
+
+              <a href="#popular" class="tm-banner-link">Learn More</a>
+            </div>
+            <img src="img/banner-2.jpg" alt="Image" />
+          </li>
+          <li>
+            <div class="tm-banner-inner">
+              <h1 class="tm-banner-title">
+                Ride Your <span class="tm-yellow-text">Journey</span>
+              </h1>
+              <p class="tm-banner-subtitle">Enjoy the nature</p>
+
+              <a href="#visit" class="tm-banner-link">Learn More</a>
+            </div>
+            <img src="img/banner-3.jpg" alt="Image" />
+          </li>
+        </ul>
       </div>
     </section>
 
@@ -670,6 +728,11 @@
       src="js/bootstrap-datetimepicker.min.js"
     ></script>
     <!-- bootstrap date time picker js, http://eonasdan.github.io/bootstrap-datetimepicker/ -->
+    <script type="text/javascript" src="js/date-check.js"></script>
+    <!-- bootstrap js -->
+
+    <script src="js/rellax.min.js"></script>
+    <script src="js/arz-main.js"></script>
 
     <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
 
