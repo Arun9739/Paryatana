@@ -1,11 +1,12 @@
 .arz-home {
-    height: 150vh;
+    height: 100vh;
     position: absolute;
     top: 80px;
     overflow: hidden;
     position: relative;
     margin-bottom: 150px;
-    background: #D7C8DF;
+    background: rgb(252,221,68);
+    background: linear-gradient(180deg, rgba(252,221,68,1) 70%, rgba(255,255,255,1) 100%);
   }
   .arz-home-parallax {
     width: 100%;
@@ -104,7 +105,7 @@
     top: 32%;
     font-size: 100px;
     font-weight: bold;
-    color: #BE79c4;
+    color: #400361;
   }
   .arz-home-subtitle {
     color: #400361;
