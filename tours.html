@@ -387,8 +387,8 @@
 						<img src="img/index-03.jpg" alt="image" class="img-responsive">
 						<div class="tm-tours-box-2-info">
 							<h3 class="margin-bottom-15">Goa beach</h3>
-							<img src="img/rating.png" alt="image" class="margin-bottom-5">
-							<p>28 March 2084</p>
+                            <div class="tm-rating"></div>
+                            <p class="gray-text"><i class="fa fa-calendar"></i> <span class="happening-date"></span></p>
 						</div>
 						<a href="#" class="tm-tours-box-2-link">Book Now</a>
 					</div>
@@ -398,8 +398,8 @@
 						<img src="img/index-04.jpg" alt="image" class="img-responsive">
 						<div class="tm-tours-box-2-info">
 							<h3 class="margin-bottom-15">Rajasthan desert </h3>
-							<img src="img/rating.png" alt="image" class="margin-bottom-5">
-							<p>26 March 2084</p>
+							<div class="tm-rating"></div>
+							<p class="gray-text"><i class="fa fa-calendar"></i> <span class="happening-date"></span></p>
 						</div>
 						<a href="#" class="tm-tours-box-2-link">Book Now</a>
 					</div>
@@ -409,8 +409,8 @@
 						<img src="img/index-05.jpg" alt="image" class="img-responsive">
 						<div class="tm-tours-box-2-info">
 							<h3 class="margin-bottom-15">Konkan Railway </h3>
-							<img src="img/rating.png" alt="image" class="margin-bottom-5">
-							<p>24 March 2084</p>
+							<div class="tm-rating"></div>
+							<p class="gray-text"><i class="fa fa-calendar"></i> <span class="happening-date"></span></p>
 						</div>
 						<a href="#" class="tm-tours-box-2-link">Book Now</a>
 					</div>
@@ -420,9 +420,8 @@
 						<img src="img/index-06.jpg" alt="image" class="img-responsive">
 						<div class="tm-tours-box-2-info">
 							<h3 class="margin-bottom-15">Meghalaya forests </h3>
-							<img src="img/rating.png" alt="image" class="margin-bottom-5">
-
-							<p>22 March 2084</p>	
+							<div class="tm-rating"></div>
+                            <p class="gray-text"><i class="fa fa-calendar"></i> <span class="happening-date"></span></p>	
 						</div>						
 						<a href="#" class="tm-tours-box-2-link" id="special2">Book Now</a>
 
@@ -511,6 +510,26 @@
 			    controlNav: false
 		    });
 	  	});
+
+        // random date within next one year for special offer
+        $('.happening-date').each(function() {
+            var randomDate = moment().add(Math.floor(Math.random() * 365), 'days').format('MMMM Do YYYY');
+            $(this).html(randomDate);
+        });
+
+        // star rating
+        $('.tm-rating').each(function() {
+            var rating = Math.floor(Math.random() * 5) + 1;
+            var i = 0;
+            for (i = 0; i < rating; i++) {
+                $(this).append('<i class="fa fa-star" style="color: #fdcf00"></i>');
+            }
+            for (i = 0; i < (5 - rating); i++) {
+                $(this).append('<i class="fa fa-star" style="color: #949494"></i>');
+            }
+        });
+
+        // $('happening-date').text(moment().add(Math.floor(Math.random() * 365), 'days').format('MMMM Do YYYY'));
 	</script>
 	<script type="text/javascript" src="./js/onscrollReveal.js"></script>
  </body>
