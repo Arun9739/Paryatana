@@ -54,10 +54,22 @@ $ git push -u origin Branch_Name
 - Go to your repository in browser and click on compare and pull requests. Then add a title and description to your pull request that explains your contribution.
 - I will review your pull request and if it is up to the mark it will be merged. 
 
-## Still need help
-Read the below article if you nedd more help 
-- [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
-- [Learn GitHub from Scratch](https://lab.github.com/githubtraining/introduction-to-github)
+## Resources
 
-All the best for your open source journey.
+## <img height = 50 src="https://i.pinimg.com/564x/9c/8a/35/9c8a352bfeececff536ae9f8877abf53.jpg"/> Useful articles:
+• [Make Your First Pull Request! 🚀](https://blogs.aakanksha.is-a.dev/make-your-first-pull-request#heading-how-to-make-a-pull-request) <br>
+• [How NOT to contribute to Open Source on GitHub: Tips For Beginners](https://astrodevil.hashnode.dev/how-not-to-contribute-to-open-source-on-github-tips-for-beginners) <br>
+• [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 
+## <img height = 48 src="https://camo.githubusercontent.com/d54e97f5edde790381f7e62b217410df33e066a0dc8f692f2fc6b25fc1768b0c/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f796f75747562652e737667"/> Youtube Links:
+• [What is Open Source and How to start?](https://www.youtube.com/watch?v=msyGybzCKRs&list=PLoWIAyF6wICtE9ZxtcMrKURjny5eFS6RN&index=17) <br>
+• [Complete Git and GitHub Tutorial](https://www.youtube.com/watch?v=apGV9Kg7ics&list=PLoWIAyF6wICtE9ZxtcMrKURjny5eFS6RN&index=5&t=370s) <br>
+• [How to Fix your first Bug in Open Source](https://www.youtube.com/watch?v=fMdfDnGX9S8&list=PLoWIAyF6wICtE9ZxtcMrKURjny5eFS6RN&index=3&t=12s) <br>
+• [Basic Git Commands](https://www.youtube.com/playlist?list=PLoWIAyF6wICtk5Zy3VUV8zthgWnp9WQjL) <br>
+
+## <img height = 45 src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/> GitHub Repositories:
+• [Getting started with Open Source](https://github.com/arpit456jain/Getting-Started-with-open-source) <br>
+• [Learn GitHub from Scratch](https://lab.github.com/githubtraining/introduction-to-github) <br>
+• To know more about open source in detail, you can go through this cool website [opensource.guide](https://opensource.guide/)
+
+All the best for your open source journey!✨
