@@ -20,44 +20,48 @@ footer {
   color: white;
 }
 
-footer .pages {
-  display: grid;
+ footer .pages {
   width: 30%;
   text-align: center;
   margin-top: 6rem;
-  /* justify-content: space-around; */
-  /* height: 100%; */
 }
-footer .pages a {
-  text-decoration: none;
-  font-weight: bold;
-  font-family: "Changa", sans-serif;
-  color: rgb(240, 235, 235);
-  font-size: 1.9rem;
-  padding: 0rem;
-  margin: 0rem;
+footer .menu-items {
+  display: grid;
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+    grid-gap: 0;
 }
+footer .menu-items a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Changa", sans-serif;
+    color: rgb(240, 235, 235);
+    font-size: 1.9rem;
+    padding: 0rem;
+    margin-bottom: 2rem;
+  }
+
 .decor {
-  width: 50%;
+  display: inline-block;
 }
 .decor::after {
-  content: "";
-  margin-top: 5px;
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #fcdd44;
-  transition: width 0.6s;
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fcdd44;
+    transition: width .6s ease-in;
 }
 .decor:hover::after {
-  width: 100%;
+    width: 100%;
 }
 footer .logo_bot {
   /* background-color: #00b51e; */
   display: grid;
   text-align: center;
   width: 40%;
-  margin-top: 3rem;
+  margin-top: 6rem;
 }
 footer .logo_bot img {
   margin: auto;
@@ -67,6 +71,7 @@ footer .logo_bot img {
 .logo_bot h3 {
   padding-bottom: 20px;
   color: white;
+  margin-top: 20px;
 }
 .newsletter {
   margin-bottom: 20px;
@@ -111,7 +116,7 @@ footer .follow {
   gap: 15%;
 }
 .follow-social {
-  width: 80%;
+  width: 36%;
   display: flex;
   justify-content: space-around;
 }
