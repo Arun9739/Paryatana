@@ -777,9 +777,8 @@ hr {
 }
 .contact-text {
   float: left;
-  margin-left: 40px;
-  max-width: 550px;
   width: 100%;
+  margin-top: 30px;
 }
 .effect2-contact::before,
 .effect2-contact::after {
@@ -941,9 +940,6 @@ hr {
   }
   .contact-image {
     max-width: 450px;
-  }
-  .contact-text {
-    max-width: 400px;
   }
   .flexslider.flexslider-about .slides img {
     width: 450px;
@@ -2043,8 +2039,6 @@ hr {
 }
 .contact-text {
   float: left;
-  margin-left: 40px;
-  max-width: 550px;
   width: 100%;
 }
 .effect2-contact::before,
