@@ -7,9 +7,14 @@ body{
     margin: 0;
 }
 
+#logo{
+    margin-top: -1.2rem;
+}
+
 .tm-header .container .row img{
     transition: 1s ease;
 }
+
 .tm-header .container .row img:hover{
     transform: scale(1.17);
     text-shadow: 3px 3px 8px #FF720B;
