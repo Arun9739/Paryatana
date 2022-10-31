@@ -59,9 +59,10 @@ body {
 }
 .landing-page .content .text-cont .description {
   font-size: 16px;
+  font-family: 'Poppins', sans-serif;
   margin: 30px 0;
-  color: #fff;
-  font-weight: 400;
+  color:#fff;
+  font-weight: 600;
   width: 80%;
 }
 .landing-page .content .text-cont .btn {
@@ -74,6 +75,7 @@ body {
   cursor: pointer;
   box-shadow: 0 0px 5px rgba(0, 0, 0, .1);
   transition: all .2s linear;
+  border-radius: 20px;
 }
 .landing-page .content .text-cont .btn-discover {
   min-width: 160px;
@@ -88,6 +90,7 @@ body {
 }
 .landing-page .content .text-cont .btn-play {
   color: var(--first-clr);
+  border-radius: 50%;
 }
 .landing-page .content .text-cont .btn-play:hover {
   border-color: var(--first-clr);
