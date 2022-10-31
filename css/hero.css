@@ -20,7 +20,9 @@ body {
   font-family: 'Titillium Web', sans-serif;
   
 }
-
+#logo{
+  width:200px;
+}
 .landing-page {
   padding: 80px 0;
   user-select: none;
