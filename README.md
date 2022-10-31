@@ -2,8 +2,9 @@
 ![Forks](https://badgen.net/github/forks/Arun9739/Paryatana?icon=github&scale=1.2&color=red&cache=300) &nbsp;
 ![Stars](https://badgen.net/github/stars/Arun9739/Paryatana?icon=https://upload.wikimedia.org/wikipedia/commons/a/a3/Orange_star.svg&scale=1.2&color=orange&cache=300) &nbsp;
 ![License](https://badgen.net/badge/license/MIT/purple?scale=1.2) &nbsp;<br>
+Click [here](https://arun9739.github.io/Paryatana/) to take a look of our website.
 <p align="center">
-Paryatana is the front-end website for travel agency. The website has all details regarding the tourist places, available hotels, and available car bookings. The tourist packages announced by the travel agency are also displayed in the website. The various attractive places of our country are also mentioned. The details of founder, manager are also put in the webpage. There are links to social media of Paryatana website. 
+Paryatana is the front-end website for travel agency. The website has all details regarding the tourist places, available hotels, and available car bookings. The tourist packages announced by the travel agency are also displayed in the website. The various attractive places of our country are also mentioned. The details of founder, manager are also put in the webpage. There are links to social media of Paryatana website.
 </p>
 
 <br> <br>
