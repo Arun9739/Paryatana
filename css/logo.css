@@ -24,8 +24,10 @@ body{
     .tm-header .container .row img{
         margin-left: -2.1rem;
         margin-bottom: -10rem;
-        height: 200px;
+        height: 50px;
         width: auto;
+        transform: translateY(-50px);
+        margin-top:0;
     }
 }
 
