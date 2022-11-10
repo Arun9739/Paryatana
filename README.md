@@ -2,9 +2,9 @@
 ![Forks](https://badgen.net/github/forks/Arun9739/Paryatana?icon=github&scale=1.2&color=red&cache=300) &nbsp;
 ![Stars](https://badgen.net/github/stars/Arun9739/Paryatana?icon=https://upload.wikimedia.org/wikipedia/commons/a/a3/Orange_star.svg&scale=1.2&color=orange&cache=300) &nbsp;
 ![License](https://badgen.net/badge/license/MIT/purple?scale=1.2) &nbsp;<br>
-Click [here](https://arun9739.github.io/Paryatana/) to take a look of our website.
+Click [here](https://arun9739.github.io/Paryatana/) to have a look at our website.
 <p align="center">
-Paryatana is the front-end website for travel agency. The website has all details regarding the tourist places, available hotels, and available car bookings. The tourist packages announced by the travel agency are also displayed in the website. The various attractive places of our country are also mentioned. The details of founder, manager are also put in the webpage. There are links to social media of Paryatana website.
+Paryatana is a front-end website for a travel agency. The website contains details about tourist destinations, available hotels and car booking services. We focus on displaying various attractive places within the country and tourist packages are updated as they are announced by the travel agency. Details about the founder and manager are included, together with links to the Paryatana website social media pages.
 </p>
 
 <br> <br>
@@ -20,12 +20,15 @@ Paryatana is the front-end website for travel agency. The website has all detail
 
 <p>
 
-## Why & How to contribute?
-- If you find any bugs then please report them by creating an issue. 
-- If you can make a website look good by modifying then go ahead and describe it in issue and create pull request. 
-- If you can add more functionality, then create an issue and contribute by making pull request.
+## Why contribute?
+ Contributions are a good way to offer help to project maintainers and improve the functionality and experience of a software. It also helps you level up your skillset by working on real-world tasks.
  
-## Want to contribute?
+ ## How to contribute? 
+- If you encounter a bug on the website raise an issue with the proposed fix.
+- If you can modify the User Interface to improve User Experience on the website raise an issue with the proposed changes. 
+- If you would like to add more functionality to the site raise an issue with the proposed changes.
+ 
+## Contributing Guidelines
 - Take a look at [`contributing guidelines`](Contributing.md) if you're interested in contributing!
 - Refer [GitHub Flow](https://guides.github.com/introduction/flow).
 
