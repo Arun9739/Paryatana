@@ -201,6 +201,7 @@ footer .follow .twitter:hover {
     width: 100%;
     text-align: center;
     margin-top: 0rem;
+    margin-left: 20px;
     padding: 55px 55px 0px 20px;
     gap: 30px;
   }
@@ -209,15 +210,34 @@ footer .follow .twitter:hover {
     width: 100%;
     margin: 0;
   }
+
+  footer .logo_bot .newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter input{
+    border-radius: 10px;
+    width: 75vw;
+  }
+
+  .newsletter button{
+    border-radius: 10px;
+    margin-top: 5px;
+    width: 25vw;
+  }
+
   footer .follow {
     display: flex;
     flex-direction: row;
     width: 100%;
     text-align: center;
-    margin-top: 7rem;
+    margin-top: 1rem;
     padding: 15px;
     text-align: center;
     align-items: center;
+    justify-content: center;
     gap: 15%;
   }
 }
