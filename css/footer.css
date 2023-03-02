@@ -120,7 +120,7 @@ footer .follow {
   gap: 15%;
 }
 .follow-social {
-  width: 36%;
+  column-gap: 10%;
   display: flex;
   justify-content: space-around;
 }
