@@ -78,17 +78,17 @@ footer .logo_bot img {
 }
 .newsletter input {
   padding: 10px;
-  width: 20vw;
+  width: 30vw;
   border: white;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
 .newsletter button {
   padding: 10px;
+  width: 15vw;
   background-color: #fcdd44;
-  border: none;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border:none;
+  border-radius:15px;
 }
 
 footer .doc {
@@ -120,7 +120,7 @@ footer .follow {
   gap: 15%;
 }
 .follow-social {
-  width: 36%;
+  column-gap: 10%;
   display: flex;
   justify-content: space-around;
 }
