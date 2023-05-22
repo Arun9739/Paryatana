@@ -88,16 +88,16 @@ body {
   border-radius: 0px;
 }
 .tm-nav li a.active {
-  color: #fcdd44;
+  /* color: #fcdd44; */
 }
 .tm-nav li a::after {
   content: "";
   margin-top: 5px;
   display: block;
   width: 0;
-  height: 2px;
+  height: 3px;
   background: #fcdd44;
-  transition: width 0.3s;
+  transition: width 0.4s;
 }
 /* .tm-nav li a:focus, */
 .tm-nav li a:hover::after {
@@ -1256,11 +1256,18 @@ hr {
     font-size: 28px;
   }
 }
-.upper_links:hover {
+
+
+/* .upper_links:hover {
   box-shadow: 1px 1px 5px 9px rgb(59, 2, 59);
-}
-#one {
-  box-shadow: 1px 1px 5px 9px rgb(59, 2, 59);
+}   commented as no more required  */
+
+/* Kept underline thing which looks cool */
+#one::after {
+  content: '';
+  width: 100%;
+  height: 3px;
+  background-color: #fcdd44;
 }
 .tm-banner-link {
   transition: transform 0.04s;
@@ -1343,7 +1350,7 @@ body {
   float: left;
 }
 .tm-nav li a {
-  color: white;
+  color: rgb(255, 255, 255);
   display: block;
   /* padding: 45px 34px 15px 34px; */
   text-transform: uppercase;
@@ -1355,8 +1362,8 @@ body {
 .tm-nav li a.active,
 .tm-nav li a:focus,
 .tm-nav li a:hover {
-  background: #fcdd44;
-  color: #000;
+  /* background: #fcdd44; */
+  color: #ffffff;
 }
 .tm-banner {
   margin-top: 2%;
@@ -1885,12 +1892,17 @@ hr {
   background-color: white;
   width: 255px;
   height: 380px;
-  padding: 30px;
+  padding: 30px;  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
+  /* border: 2px solid black; */
 }
 .tm-about-box-1-img {
   display: block;
-  margin: 0 auto 30px;
+  margin: 0 auto 15px;
   border-radius: 50%;
   border: 5px solid #d4d4d4;
   transition: all 0.3s ease;
@@ -1903,14 +1915,18 @@ hr {
   font-size: 17px;
   font-style: italic;
   text-transform: uppercase;
-  margin-bottom: 15px;
+  margin-bottom: 0;
+  
 }
 .tm-about-box-1-title span {
   font-size: 14px;
   font-style: normal;
   text-transform: none;
 }
+
 .tm-social-icon {
+
+  
   color: #b1b1b1;
   font-size: 18px;
   padding: 0 10px;
