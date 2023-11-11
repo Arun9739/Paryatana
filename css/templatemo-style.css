@@ -527,8 +527,8 @@ hr {
 .margin-bottom-20 {
   margin-bottom: 20px;
 }
-.margin-bottom-30 {
-  margin-bottom: 30px;
+.margin-bottom-25 {
+  margin-bottom: 25px;
 }
 .gray-text {
   color: #b1b1b1;
@@ -2610,4 +2610,21 @@ hr {
 .media:hover {
   transform: scale(1.1);
   background-color: purple;
+}
+.tm-about-box-2-img {
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.parent {
+  display: flex;
+  align-items: center;
+}
+
+.info-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
